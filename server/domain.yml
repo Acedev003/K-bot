@@ -11,7 +11,8 @@ intents:
 
 responses:
   utter_greet:
-  - text: "Hey! How are you?"
+  - text: "Hello! I am K-bot, a simple assistant to guide you through all your queries. How may I help you?"
+  - text: "Hi! I'm K-bot, a simple assistant to guide you through all your queries. How may I help you?"
 
   utter_cheer_up:
   - text: "Here is something to cheer you up:"
