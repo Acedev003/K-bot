@@ -17,6 +17,175 @@ nlu:
     - goodevening
     - good afternoon
 
+- intent: courses
+  examples: |
+    - courses offered in karunya
+    - programmes offered
+    - UG courses
+    - Undergraduate courses
+    - list of courses
+    - field of study in karunya
+    - engineering courses
+    - mtech courses
+    - Which courses are offered at karunya
+    - btech courses
+    - course
+    - course offered
+    - karunya courses
+    - Mtech course
+    - admission course
+    - course detail
+    - courses website
+
+- intent: collegeInfo
+  examples: |
+   - about college
+   - how is karunya
+   - tell me something about the college
+   - about karunya
+   - details of college
+   - college location
+   - where is the college located
+   - location of karunya
+   - which city is karunya in
+   - which state is karunya in
+   - what is the location of college
+   - college information
+   - brief about college
+   - coordinates of the college
+   - address of college
+   - how to reach college
+
+- intent: whyKU
+  examples: |
+   - Why should I choose KU
+   - Should I go to Karunya
+   - Is karunya a good college
+   - should i take admission in karunya
+   - is karunya okay 
+   - is karunya good for engineering
+   - is the college good enough
+   
+
+   
+- synonym: college
+  examples: |
+   - karunya
+   - Karunya Institute
+   - Karunya Institute of Technology and Sciences
+   - KITS
+   - KU
+   - Karunya University
+   - university
+   - institute
+   - karunya college
+   - KIT
+  
+ 
+
+- intent: fee
+  examples: |
+   - What is the fee structure
+   - fee details
+   - annual fee details
+   - semester fee
+   - fee breakup
+   - fees
+   - fees payment
+   - how much is the fee
+   - how much to pay per sem
+   - per sem fee
+   - semester fees
+   - one year fee
+   - semester wise fee
+   - semester fees
+   - payment fee
+
+- intent: hostel
+  examples: |
+   - is hostel available in karunya
+   - is hostel facility available
+   - is hostel present in college
+   - is hostel chargeable
+   - hostel and mess info
+   - hostel information
+   - hostel details
+   - does karunya have hostels
+   - ladies hostel
+   - gents hostel
+   - accomodation facilities
+   - living in college
+   - staying in college
+   - what are the facilities available for staying in the college
+   - is hostel compulsory
+   - hostel life
+   - how is the hostel in karunya
+   - what is the hostel condition
+   - what facilities are available in the hostel
+   - mess
+   - food in hostel
+   - how is the food in the mess
+   - mess information
+  
+- intent: placements
+  examples: |
+   - how are the placements in karunya
+   - placements in karunya
+   - placement cell
+   - In Karunya, how are the job opportunities?
+   - in college how many companies come
+   - recruitment
+   - which companies recruit in karunya
+   - what is the highest salary package in karunya
+   - jobs after undergrad
+   - jobs after btech
+   - job salary
+   - salary details of placement
+   - student recruitment drive
+   - placement cell of karunya
+   - recruitment cell
+   - student recruitment after college
+   - In Karunya, which firms hire?
+   - In Karunya, which firms are hiring?
+   - What firms hire in Karunya?
+   - situation of placement
+   - recruitment position of college
+
+- intent: infastructure
+  examples: |
+   - infastructure of karunya
+   - college infra
+   - college buildings
+   - college campus
+   - karunya campus
+   - how is the campus of karunya
+   - how big is karunya
+   - size of karunya campus
+   - inside of college
+   - college campus details
+   - campus tour
+   - how is the infastructure of the college
+  
+- intent: howTo
+  examples: |
+   - how to get admission in karunya
+   - how to get admitted in this college
+   - procedure for admission in karunya
+   - admission procedure in Karunya
+   - In Karunya,what is the method for admission?
+   - admission process in karunya
+   - KEE
+   - Entrance exam 
+   - exam for admission 
+   - about KEE exam
+   - how to enter karunya
+   - how do I get into this college
+   - How can I get into this university?
+   - How can I get into this uni?
+   - What are my chances of getting into this university?
+   - getting into karunya
+   - 
+
 - intent: goodbye
   examples: |
     - good afternoon
@@ -90,3 +259,12 @@ nlu:
     - are you a human?
     - am I talking to a bot?
     - am I talking to a human?
+
+- intent: out_of_scope
+  examples: |
+    - I want to order food
+    - What is 2 + 2?
+    - Who's the US President?
+    - I am hungry
+    - I dont want to go to college
+    - I dont like studying
