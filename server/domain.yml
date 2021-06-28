@@ -8,27 +8,116 @@ intents:
   - mood_great
   - mood_unhappy
   - bot_challenge
+  - courses
+  - collegeInfo
+  - whyKU
+  - fee
+  - hostel
+  - placements
+  - infastructure
+  - out_of_scope
+
 
 responses:
   utter_greet:
-  - text: "Hello! I am K-bot, a simple assistant to guide you through all your queries. How may I help you?"
-  - text: "Hi! I'm K-bot, a simple assistant to guide you through all your queries. How may I help you?"
+  - text: "Hey! How may I help you?"
+  - text: "Hello there!How may I assist you today?"
+  - text: "Hi! Ask me any questions related to Karunya!"
 
   utter_cheer_up:
   - text: "Here is something to cheer you up:"
     image: "https://i.imgur.com/nGF1K8f.jpg"
-
+    
   utter_did_that_help:
   - text: "Did that help you?"
 
   utter_happy:
   - text: "Great, carry on!"
+  - text: "Good to hear that!"
 
   utter_goodbye:
-  - text: "Bye"
+  - text: "Okay, bye!"
+
+  utter_sorry:
+  - text: "I am sorry. Anything else I can help you with?"
 
   utter_iamabot:
   - text: "I am a bot, powered by Rasa."
+
+  utter_out_of_scope:
+  - text: "Sorry, I can't handle that request."
+  
+  utter_whyKU:
+  - text: |
+        Why should you choose Karunya?
+        -Academic Excellence
+        -Best IT Facilities
+        -Innovation and Entrepreneurship
+        -Residential Life
+        -Sports Facilities
+
+
+  
+  utter_collegeInfo:
+  - text: |
+      *Karunya Institute of Technology and Sciences, a Deemed University and a Christian Minority Residential Institution is ranked among the Top 100 Institutions in NIRF Ranking in the last 3 years. 
+      *The institute is located in a sprawling 720-acre campus, amidst the green vegetation and misty mountains accommodating over 7500 students for learning and Research. 
+      - Situated in a serene environment at the foot-hill of Western Ghats
+      - 7,500 Students & over 30,000 Alumni
+      - Industry Oriented Curriculum
+      - International collaborations
+      - Wi-Fi enabled Green Campus
+      - Digital Library Resources
+      - Foreign Internship with Stipend
+      - Industry Certification
+      - Pre Placement Training Programs
+      - Industry tie-up with Siemens, IBM, Novel, CISCO, Salzer, Jasmine InfoTech, Trident and Pneumatics, AMZ Automotive and Boeing
+      - Centre for Student Innovations, Incubation and Business start-up
+ 
+  utter_placements:
+  - text: |
+     Karunya University has a team of dedicated, committed and competent placement cell that is dedicated to providing students with proper professional training and placement opportunities among some of the most reputed companies and prestigious organizations. The placements for the academic year 2020 are currently being conducted with over 707 students already placed at 143 companies. 184 students among these have also received multiple job offers from recruiting companies.
+
+     The highest CTC package offered during 2019 placements was worth INR 19.55 LPA and the average CTC package offered was INR 5.5 LPA. 
+  
+  utter_infastructure:
+  - text: |
+     Here's the Campus Overview
+     - 700 Acres of Land
+     - Nationally Acclaimed Research Laboratories
+     - Well-equipped Computer Laboratories
+     -24/7 Wifi Internet Connectivity
+     -Centres of Excellence in collaboration with Siemens, Cisco, Novell, IBM, Salzer Electronics and Lancet Commission
+     -Smart Classrooms with latest teaching Aids
+  
+  utter_howTo:
+  - text: |
+     Course	   Selection Criteria
+     UG	         KEE
+     PG	         KEE
+     MBA	     CAT/ MAT/ KMAT
+     
+     BTech - 10+2 with Physics, Chemistry, and Mathematics as compulsory subjects from any recognized board with minimum 60% marks in aggregate 
+  
+  utter_courses:
+  - text: |
+     School of ENGINEERING AND TECHNOLOGY offers the following courses:
+     -Civil Engineering
+     -Electrical and Electronics Engineering
+     -Electronics and Communication Engineering
+     -Robotics Engineering
+     -Mechanical Engineering
+     -Aerospace Engineering
+     -Computer Science and Engineering
+     -Biomedical Engineering
+     
+     School of AGRICULTURE AND BIOSCIENCES offers:
+     -Agriculture
+     -Bio-Technology
+     -Food Processing Technology
+     -Water Institute, A Centre of Excellence
+
+
 
 session_config:
   session_expiration_time: 60
