@@ -10,12 +10,44 @@ nlu:
     - good morning
     - good evening
     - moin
+    - yo
+    - what's up
+    - how u doin
+    - how are you
     - hey there
     - let's go
     - hey dude
     - goodmorning
     - goodevening
     - good afternoon
+
+- intent: okaytext
+  examples: |
+   - okay
+   - that sounds good
+   - sounds great
+   - great
+   - good
+   - ok
+   - okie
+   - oks
+   - k
+   - alright
+   - ohhk
+   - thats great
+   - oh nice
+   - oh great
+   - amazing
+   - cool
+   - oh
+   - nice
+   - hmm
+   - fair
+   - good enough
+
+
+   
+
 
 - intent: courses
   examples: |
@@ -65,6 +97,14 @@ nlu:
    - is karunya okay 
    - is karunya good for engineering
    - is the college good enough
+   - why this college
+   - what makes this college stand out
+   - is it worth getting admitted in karunya
+   - should i do btech in karunya
+   - it it right to get admitted here
+   - why should i choose karunya over other colleges
+   - is karunya better than the other colleges
+   - why to choose karunya
    
 
    
@@ -149,9 +189,11 @@ nlu:
    - In Karunya, which firms are hiring?
    - What firms hire in Karunya?
    - situation of placement
+   - will this college get me a job
+   - will i get a job after graduating from here
    - recruitment position of college
 
-- intent: infastructure
+- intent: infa
   examples: |
    - infastructure of karunya
    - college infra
