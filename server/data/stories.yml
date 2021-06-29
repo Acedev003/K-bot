@@ -6,8 +6,18 @@ stories:
   steps:
   - intent: greet
   - action: utter_greet
-  - intent: mood_great
-  - action: utter_happy
+  - intent: collegeInfo
+  - action: utter_collegeInfo
+  - intent: whyKU
+  - action: utter_whyKU
+  - intent: courses
+  - action: utter_courses
+  - intent: placements
+  - action: utter_placements
+  - intent: infastructure
+  - action: utter_infastructure
+  - intent: howTo
+  - action: utter_howTo
 
 - story: sad path 1
   steps:
@@ -18,7 +28,9 @@ stories:
   - action: utter_did_that_help
   - intent: affirm
   - action: utter_happy
-
+  - intent: courses
+  - action: utter_courses
+  
 - story: sad path 2
   steps:
   - intent: greet
@@ -27,4 +39,6 @@ stories:
   - action: utter_cheer_up
   - action: utter_did_that_help
   - intent: deny
-  - action: utter_goodbye
+  - action: utter_sorry
+  - intent: courses
+  - action: utter_courses
