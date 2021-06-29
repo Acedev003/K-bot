@@ -12,12 +12,22 @@ rules:
   - intent: bot_challenge
   - action: utter_iamabot
 
+- rule: deny
+  steps:
+  - intent: deny
+  - action: utter_goodbye
+
+- rule: okay
+  steps:
+  - intent: okaytext
+  - action: utter_okay
+
 - rule: out-of-scope
   steps:
   - intent: out_of_scope
   - action: utter_out_of_scope
 
-- rule: speak about placements
-  steps:
-  - intent: placements
-  - action: utter_placements
+
+
+
+ 
