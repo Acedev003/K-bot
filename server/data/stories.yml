@@ -14,8 +14,8 @@ stories:
   - action: utter_courses
   - intent: placements
   - action: utter_placements
-  - intent: infastructure
-  - action: utter_infastructure
+  - intent: infa
+  - action: utter_infa
   - intent: howTo
   - action: utter_howTo
 
@@ -23,22 +23,31 @@ stories:
   steps:
   - intent: greet
   - action: utter_greet
-  - intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - intent: affirm
-  - action: utter_happy
   - intent: courses
   - action: utter_courses
+  - intent: placements
+  - action: utter_placements
+  - intent: infa
+  - action: utter_infa
+  - intent: howTo
+  - action: utter_howTo
+  - intent: collegeInfo
+  - action: utter_collegeInfo
+  - intent: whyKU
+  - action: utter_whyKU
+
   
 - story: sad path 2
   steps:
   - intent: greet
   - action: utter_greet
-  - intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - intent: deny
-  - action: utter_sorry
+  - intent: infa
+  - action: utter_infa
+  - intent: howTo
+  - action: utter_howTo
   - intent: courses
   - action: utter_courses
+  - intent: placements
+  - action: utter_placements
+
+
