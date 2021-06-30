@@ -13,9 +13,12 @@ intents:
   - whyKU
   - fee
   - hostel
+  - howTo
   - placements
-  - infastructure
+  - infa
   - out_of_scope
+  - okaytext
+
 
 
 responses:
@@ -30,6 +33,9 @@ responses:
     
   utter_did_that_help:
   - text: "Did that help you?"
+
+  utter_okay:
+  - text: "Yeah! Anything else I can help you with?"
 
   utter_happy:
   - text: "Great, carry on!"
@@ -80,7 +86,7 @@ responses:
 
      The highest CTC package offered during 2019 placements was worth INR 19.55 LPA and the average CTC package offered was INR 5.5 LPA. 
   
-  utter_infastructure:
+  utter_infa:
   - text: |
      Here's the Campus Overview
      - 700 Acres of Land
