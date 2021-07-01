@@ -8,8 +8,8 @@ intents:
   - mood_great
   - mood_unhappy
   - bot_challenge
-  - courses
-  - collegeInfo
+  - ask_courses
+  - college_info
   - whyKU
   - fee
   - hostel
@@ -19,7 +19,14 @@ intents:
   - out_of_scope
   - okaytext
 
+entities:
+  - name
 
+slots:
+  name:
+    type: text
+    auto_fill: true
+    influence_conversation: true
 
 responses:
   utter_greet:
@@ -61,25 +68,7 @@ responses:
         -Innovation and Entrepreneurship
         -Residential Life
         -Sports Facilities
-
-
-  
-  utter_collegeInfo:
-  - text: |
-      *Karunya Institute of Technology and Sciences, a Deemed University and a Christian Minority Residential Institution is ranked among the Top 100 Institutions in NIRF Ranking in the last 3 years. 
-      *The institute is located in a sprawling 720-acre campus, amidst the green vegetation and misty mountains accommodating over 7500 students for learning and Research. 
-      - Situated in a serene environment at the foot-hill of Western Ghats
-      - 7,500 Students & over 30,000 Alumni
-      - Industry Oriented Curriculum
-      - International collaborations
-      - Wi-Fi enabled Green Campus
-      - Digital Library Resources
-      - Foreign Internship with Stipend
-      - Industry Certification
-      - Pre Placement Training Programs
-      - Industry tie-up with Siemens, IBM, Novel, CISCO, Salzer, Jasmine InfoTech, Trident and Pneumatics, AMZ Automotive and Boeing
-      - Centre for Student Innovations, Incubation and Business start-up
- 
+      
   utter_placements:
   - text: |
      Karunya University has a team of dedicated, committed and competent placement cell that is dedicated to providing students with proper professional training and placement opportunities among some of the most reputed companies and prestigious organizations. The placements for the academic year 2020 are currently being conducted with over 707 students already placed at 143 companies. 184 students among these have also received multiple job offers from recruiting companies.
@@ -106,24 +95,10 @@ responses:
      BTech - 10+2 with Physics, Chemistry, and Mathematics as compulsory subjects from any recognized board with minimum 60% marks in aggregate 
   
   utter_courses:
-  - text: |
-     School of ENGINEERING AND TECHNOLOGY offers the following courses:
-     -Civil Engineering
-     -Electrical and Electronics Engineering
-     -Electronics and Communication Engineering
-     -Robotics Engineering
-     -Mechanical Engineering
-     -Aerospace Engineering
-     -Computer Science and Engineering
-     -Biomedical Engineering
-     
-     School of AGRICULTURE AND BIOSCIENCES offers:
-     -Agriculture
-     -Bio-Technology
-     -Food Processing Technology
-     -Water Institute, A Centre of Excellence
+  - text: "Our college has 3 schools namely School of Engineering & Technology, School of Science Arts Media & Management,School of Agriculture & Biosciences and the School of School of Health Sciences that offer a variety of exciting courses. Check out the brochure over here : https://admissions.karunya.edu/sites/admissions/files/uploads/content/2021/KITS-2021-Admission-Brochure.pdf"
 
-
+actions:
+  - action_college_info
 
 session_config:
   session_expiration_time: 60

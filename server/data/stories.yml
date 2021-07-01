@@ -6,11 +6,11 @@ stories:
   steps:
   - intent: greet
   - action: utter_greet
-  - intent: collegeInfo
-  - action: utter_collegeInfo
+  - intent: college_info
+  - action: action_college_info
   - intent: whyKU
   - action: utter_whyKU
-  - intent: courses
+  - intent: ask_courses
   - action: utter_courses
   - intent: placements
   - action: utter_placements
@@ -23,7 +23,7 @@ stories:
   steps:
   - intent: greet
   - action: utter_greet
-  - intent: courses
+  - intent: ask_courses
   - action: utter_courses
   - intent: placements
   - action: utter_placements
@@ -31,8 +31,8 @@ stories:
   - action: utter_infa
   - intent: howTo
   - action: utter_howTo
-  - intent: collegeInfo
-  - action: utter_collegeInfo
+  - intent: college_info
+  - action: action_college_info
   - intent: whyKU
   - action: utter_whyKU
 
@@ -45,7 +45,7 @@ stories:
   - action: utter_infa
   - intent: howTo
   - action: utter_howTo
-  - intent: courses
+  - intent: ask_courses
   - action: utter_courses
   - intent: placements
   - action: utter_placements

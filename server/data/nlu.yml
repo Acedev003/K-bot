@@ -7,8 +7,6 @@ nlu:
     - hello
     - hi
     - hello there
-    - good morning
-    - good evening
     - moin
     - yo
     - what's up
@@ -19,7 +17,236 @@ nlu:
     - hey dude
     - goodmorning
     - goodevening
+    - good morning
+    - good evening  
+    - good evning    
     - good afternoon
+    - Bom dia
+    - Bonjour
+    - Good Morning
+    - Good morning
+    - Good mourning
+    - Guten Morgen
+    - HELLO
+    - HEY
+    - HEllo
+    - HI
+    - Hallo
+    - Hei
+    - Hellllooooooo
+    - Hello
+    - Hello Bot
+    - Hello!
+    - Hey
+    - Hey bot
+    - Heya
+    - Heylo
+    - Hi
+    - Hi bot
+    - Hi man
+    - Hi girl
+    - Hi there
+    - Hi!
+    - Hi'
+    - Hi,
+    - Hi, bot
+    - Hieee
+    - Hieeeeeeeeeeeee
+    - Hola
+    - I said, helllllloooooO!!!!
+    - Well hello there ;)
+    - What is up?
+    - Whats up
+    - Whats up my bot
+    - Whats up?
+    - ayyyy whaddup
+    - bonjour
+    - ey boss
+    - good evening
+    - good moring
+    - good morning
+    - greet
+    - greetings
+    - hai
+    - hallo
+    - halloo
+    - halloooo
+    - halo
+    - halo bot
+    - heeey
+    - heelio
+    - hell9o
+    - hellio
+    - hello
+    - hello everybody
+    - hello friend
+    - hello hi
+    - hello is anybody there
+    - hello it is me again
+    - hello robot
+    - hello sweatheart
+    - hello sweet boy
+    - hello there
+    - hello world
+    - hello?
+    - hello]
+    - hellooo
+    - helloooo
+    - helo
+    - hey
+    - hey bot
+    - hey bot!
+    - hey dude
+    - hey hey
+    - hey let's talk
+    - hey ther
+    - hey there
+    - hey there boy
+    - hey there..
+    - hey, let's talk
+    - heya
+    - heyho
+    - heyo
+    - hhola
+    - hi
+    - hi !
+    - hi Mister
+    - hi again
+    - hi can you speak ?
+    - hi folks
+    - hi friend
+    - hi friends
+    - hi hi
+    - hi pal!
+    - hi bot
+    - hi there
+    - hi there it's me
+    - hi!
+    - hi.........................................................
+    - hello :)
+    - hi?
+    - hieee
+    - hii
+    - hiihihi
+    - hiii
+    - hlo
+    - hola
+    - howdy
+    - jojojo
+    - jop
+    - konichiwa
+    - merhaba
+    - ola 
+    - salut
+    - sup
+    - wasssup
+    - wasssup!
+    - what up
+    - whats popping
+    - whats up
+    - yo
+    - yoo
+    - ssup?
+    - helleo
+
+- intent: college_info
+  examples: |
+   - about college
+   - about karunya
+   - brief about college
+   - how is karunya
+   - hOW IS CLLG
+   - How's college
+   - can you tell me more about college
+   - tell me something about the college
+   - Tell me more abt Karunya
+   - college information
+   - How is college
+   - college info
+   - info on karunya
+   - Hey, Give me more info about college
+   - Gimme more information on Karunya university
+   - gimme more information on the univeristy
+   - Give me more info on the university
+   - Give me more information on the college
+   - details of college
+   - Details on the college
+   - Details on Karunya university
+   - Details on cllg
+   - Details on college
+   - Some facts about Karunya university
+   - Facts abt college
+   - Facts on college
+   - Fact on cllg
+
+- intent: ask_courses
+  examples: |
+    - courses offered in karunya
+    - programmes offered
+    - programs offered
+    - UG courses
+    - Undergraduate courses
+    - list of courses
+    - field of study in karunya
+    - Which courses are offered at karunya
+    - course
+    - course offered
+    - karunya courses
+    - admission course
+    - course detail
+    - What courses does the university offer
+    - list of courses in karunya
+    - list of programs in karunya
+    - Engineering courses in karunya
+    - engineering courses
+    - engineerng courses in karunya
+    - Engineering courses offered by the college
+    - list of engineering courses offered
+    - list of engineering programs in the college
+    - list of engineering programs in university
+    - engineering programs offered
+    - enginerring courses offered
+    - enginerring programs offered by the college
+    - List of btech courses
+    - List of b.tech courses
+    - List of B. tech courses
+    - List of b tech courses
+    - list of ug engineering courses
+    - list of undergraduate engineering courses
+    - list of undergraduate engineering programs
+    - catlog of btech courses
+    - catlog of b. tech courses
+    - how many btech courses do we have 
+    - how many UG courses does the university offer
+    - UG courses offered by the university
+    - UG courses offered
+    - UG programs in the college
+    - undergraduate programsn in the college
+    - Bachelor of technology courses
+    - Bachelor of science courses
+    - Btech courses available
+    - B.tech courses 
+    - Best courses available in karunya
+    - Courses brochure
+    - Course brochure
+    - Complete list of courses available
+    - Brochure of  programs offered
+    - Brochure
+    - CSE courses available
+    - Computer Engineering courses avaiable
+    - Agricultural courses
+    - Bsc courses 
+    - BSC COURSES
+    - List of available Bsc programs offered
+    - B.Sc programs
+    - What courses do you offer?
+    - Courses in criminology
+    - Mtech courses is there at karunya
+    - M tech courses offered by college
+    - M. Tech courses by the university
+    - Mtech courses
+    - M.tech courses available
+
 
 - intent: okaytext
   examples: |
@@ -46,48 +273,6 @@ nlu:
    - good enough
 
 
-   
-
-
-- intent: courses
-  examples: |
-    - courses offered in karunya
-    - programmes offered
-    - UG courses
-    - Undergraduate courses
-    - list of courses
-    - field of study in karunya
-    - engineering courses
-    - mtech courses
-    - Which courses are offered at karunya
-    - btech courses
-    - course
-    - course offered
-    - karunya courses
-    - Mtech course
-    - admission course
-    - course detail
-    - courses website
-
-- intent: collegeInfo
-  examples: |
-   - about college
-   - how is karunya
-   - tell me something about the college
-   - about karunya
-   - details of college
-   - college location
-   - where is the college located
-   - location of karunya
-   - which city is karunya in
-   - which state is karunya in
-   - what is the location of college
-   - college information
-   - brief about college
-   - coordinates of the college
-   - address of college
-   - how to reach college
-
 - intent: whyKU
   examples: |
    - Why should I choose KU
@@ -105,9 +290,7 @@ nlu:
    - why should i choose karunya over other colleges
    - is karunya better than the other colleges
    - why to choose karunya
-   
 
-   
 - synonym: college
   examples: |
    - karunya
@@ -121,7 +304,6 @@ nlu:
    - karunya college
    - KIT
   
- 
 
 - intent: fee
   examples: |
