@@ -195,8 +195,24 @@ nlu:
     - admission course
     - course detail
     - What courses does the university offer
+    - Which courses can I do at karunya
+    - field of study in karunya
     - list of courses in karunya
     - list of programs in karunya
+    - Best courses available in karunya
+    - Courses brochure
+    - Course brochure
+    - Complete list of courses available
+    - Brochure of  programs offered
+    - Brochure
+
+- intent: btech
+  examples: |
+    - btech
+    - bachelor of tech
+    - bachelors
+    - btech course
+    - btech programs
     - Engineering courses in karunya
     - engineering courses
     - engineerng courses in karunya
@@ -221,31 +237,110 @@ nlu:
     - UG courses offered by the university
     - UG courses offered
     - UG programs in the college
-    - undergraduate programsn in the college
+    - undergraduate programs in the college
     - Bachelor of technology courses
     - Bachelor of science courses
     - Btech courses available
     - B.tech courses 
-    - Best courses available in karunya
-    - Courses brochure
-    - Course brochure
-    - Complete list of courses available
-    - Brochure of  programs offered
-    - Brochure
-    - CSE courses available
-    - Computer Engineering courses avaiable
-    - Agricultural courses
-    - Bsc courses 
-    - BSC COURSES
-    - List of available Bsc programs offered
-    - B.Sc programs
-    - What courses do you offer?
-    - Courses in criminology
-    - Mtech courses is there at karunya
-    - M tech courses offered by college
-    - M. Tech courses by the university
-    - Mtech courses
-    - M.tech courses available
+    
+
+- intent: cse
+  examples: |
+   - cse
+   - is cse there in karunya
+   - computer engineering
+   - computer science engineering
+   - cse btech
+   - how is cse in karunya
+   - is cse in karunya good
+   - ce 
+   - artificial intelligence
+   - btech ai
+   - ai ds
+   - data science
+   - can i become a computer science engineer
+   - software engineer
+   - is btech in data science available
+   - is artifical intelligence course available in karunya
+
+- intent: civil
+  examples: |
+   - civil engineering
+   - btech in civil
+   - civil engineer
+   - how is civil engineering in karunya
+   - is civil engineering course available at karunya
+   - is there a civil engineering dept
+   - civil engineering dept
+   - i want to take up civil engineering at karunya
+
+- intent: mech
+  examples: |
+   - mechnical engineering
+   - i want to know about mech 
+   - btech in mech
+   - btech in mechanical engineering
+   - btech in me
+   - is mechanical engineering degree available in karunya
+   - can i take mech engg
+
+- intent: eee
+  examples: |
+   - eee
+   - electrical
+   - electrical engineering
+   - electrical and electronics engineering
+   - btech in eee
+   - btech in electrical
+   - ug in eee
+   - degree in electrical
+   - electrical department
+   - eee department
+
+- intent: ece
+  examples: |
+   - ece
+   - ece dept
+   - electronics
+   - electronics engineering
+   - electronics and communications
+   - electronics and communication engineering
+   - btech in ece
+   - btech in ece
+   - is ece available
+   - is btech in electronics available
+
+- intent: robo
+  examples: |
+   - robotics
+   - automation
+   - btech in robotics
+   - robotics engineering
+   - is btech in robotics available in karunya
+   
+- intent: aero
+  examples: |
+   - aerospace engineering
+   - btech in aero
+   - aero btech
+   - how is the aerospace engineering dept
+   - aerospace btech
+   - btech in aerospace
+   - aerospace engineering at kits
+   - 4 year aerospace engineering course
+  
+- intent: bio
+  examples: |
+   - biomedical
+   - btech in biomedical
+   - biomedcial
+   - btech in biomedical
+   - biomedical engineering
+   - is biomedical engineering available at karunya
+
+
+    
+
 
 
 - intent: okaytext
