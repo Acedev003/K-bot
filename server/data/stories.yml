@@ -19,6 +19,53 @@ stories:
   - intent: howTo
   - action: utter_howTo
 
+- story: btech path
+  steps: 
+  - intent: btech
+  - action: utter_btech
+
+- story: cse path
+  steps: 
+  - intent: cse
+  - action: utter_cse
+
+- story: eee path
+  steps: 
+  - intent: eee
+  - action: utter_eee
+
+- story: ece path
+  steps: 
+  - intent: ece
+  - action: utter_ece
+
+- story: robo path
+  steps: 
+  - intent: robo
+  - action: utter_robo
+
+- story: aero path
+  steps: 
+  - intent: aero
+  - action: utter_aero
+
+- story: bio path
+  steps: 
+  - intent: bio
+  - action: utter_bio
+
+- story: civil path
+  steps: 
+  - intent: civil
+  - action: utter_civil
+
+- story: mech path
+  steps: 
+  - intent: mech
+  - action: utter_mech
+
+
+
 - story: sad path 1
   steps:
   - intent: greet

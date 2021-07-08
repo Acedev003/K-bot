@@ -18,6 +18,15 @@ intents:
   - infa
   - out_of_scope
   - okaytext
+  - btech
+  - cse
+  - civil
+  - mech
+  - eee
+  - ece
+  - robo
+  - aero
+  - bio
 
 entities:
   - name
@@ -95,7 +104,138 @@ responses:
      BTech - 10+2 with Physics, Chemistry, and Mathematics as compulsory subjects from any recognized board with minimum 60% marks in aggregate 
   
   utter_courses:
-  - text: "Our college has 3 schools namely School of Engineering & Technology, School of Science Arts Media & Management,School of Agriculture & Biosciences and the School of School of Health Sciences that offer a variety of exciting courses. Check out the brochure over here : https://admissions.karunya.edu/sites/admissions/files/uploads/content/2021/KITS-2021-Admission-Brochure.pdf"
+  - text: |
+     Our college has 3 schools namely
+     - School of Engineering & Technology,
+     - School of Science Arts Media & Management,
+     - School of Agriculture & Biosciences 
+     that offer a variety of exciting courses.
+     
+     Karunya offers BTech, Mtech and PhD degrees.
+     Which course would you like to know more about? "
+
+  utter_btech:
+  - text: |
+      Karunya offers various courses in B.Tech :
+      - B.Tech Aerospace Engineering
+      - B.Tech Artificial Intelligence and Data Science
+      - B.Tech Biomedical Engineering
+      - B.Tech Biotechnology
+      - B.Tech Civil Engineering
+      - B.Tech Civil Engineering (Specialization in Smart Cities)
+      - B.Tech Computer Engineering
+      - B.Tech Computer Science and Engineering
+      - B.Tech Computer Science and Engineering(Artificial Intelligence)
+      - B.Tech Computer Science and Engineering (Specialization in Artificial Intelligence)
+      - B.Tech Computer Science and Engineering (Specialization in Data Analytics)
+      - B.Tech Computer Science and Engineering (Specialization in Artificial Intelligence & Machine Learning)
+      - B.Tech Electronics and Computer Engineering
+      - B.Tech Electronics and Communications Engineering
+      - B.Tech Electronics and Communications Engineering (Specialization in IOT)
+      - B.Tech Food Processing and Engineering
+      - B.Tech Mechanical Engineering
+      - B.Tech Robotics and Automation
+
+  utter_cse:
+  - text: |
+     Computer Science and Engineering was established in the year 1994. 
+     The primary goal of CSE is to provide best IT infrastructure,
+     world class learning & research environment, adopt industry practices through industry collaborations
+     and inculcate moral and ethical values. The department is accredited by NBA. 
+     
+     Undergraduate Programmes available are: 
+     - Computer Science and Engineering
+     - Computer Engineering
+     - Artificial Intelligence and Data Science
+     
+     Postgraduate Programmes available are:
+     - Computer Science and Engineering
+     - Cyber Security
+
+  utter_civil:
+  - text: |
+      The Department of Civil Engineering has been in existence since the inception of
+      Karunya Institute of Technology and Sciences in 1986 and has grown into a full-fledged department
+      with specializations in:
+      - Structural Engineering
+      - Geotechnical Engineering,
+      - Environmental and
+      - Water Resources and Management. 
+      
+      The department is accredited by NBA.
+
+  utter_mech:
+  - text: |
+     The Department of Mechanical Engineering of Karunya Institute of Technology and Sciences
+     is known for excellence in academics and research in the field of design & manufacturing engineering,
+     material sciences & thermal management, renewable energy, metallurgy and mechatronics engineering.
+     
+     Karunya offers: 
+     - B.Tech in Mechanical Engineering
+     - M.Tech in Advanced Engineering Technology
+
+  utter_eee:
+  - text: |
+     The Department of Electrical and Electronics Engineering was established in 1994.
+     It is well equipped with highly commendable facilities and is effectively guided
+     by a set of devoted and diligent staff members. The Department has also signed MoA 
+     with industries like SIEMENS Centre of Excellence for “Automation and Drives”.
+     Students are offered with innovative projects, in plant trainings and internships through this collaboration.
+     
+     Karunya offers:
+     - B.Tech in Electrical and Electronics Engineering
+     - B.Tech in Electrical and Electronics Engineering
+
+  utter_ece:
+  - text: |
+     ECE has a strength of 1061 students guided by a team of devoted and diligent staff members.
+      ECE has well established research labs in the fields of VLSI, RF Communication,
+      IoT and Signal processing. Currently, funded projects of worth Rs. 75,78,000/- from DST and DRDO 
+      has been carried out in the programme. ECE has signed MoU with reputed industries like Jasmin Infotech, KPIT, Salzer, Siemens and EinNel Technologies.
+
+     Karunya offers:
+      - B.Tech Electronics and Computer Engineering
+      - B.Tech Electronics and Communications Engineering
+      - B.Tech Electronics and Communications Engineering (Specialization in IOT)
+    
+  utter_robo:
+  - text: |
+     Started in 2018 at KITS, B.Tech - Robotics and Automation department houses several
+     state-of-the-art labs which aim to inculcate the urge for research and innovation.
+     It equips the students in par with the industry standards and fosters an innovative attitude
+     that leads them to become entrepreneurs. The department also has robust tie-ups with 
+     various industries and is currently collaborating with many more in order to provide
+     a platform for the students to be exposed to latest trends in the field of robotics and automation.
+     
+     Karunya offers:
+     - B.Tech Robotics and Automation
+     - M.Tech Robotics and Automation
+
+  utter_aero:
+  - text: |
+     Our budding engineers acquire skills in core domains like aerodynamics, 
+     stress engineering, materials and structures, aircraft design, Propulsion, 
+     Space dynamics, Artificial Intelligence & Machine Learning, smart manufacturing
+     that enables them to compete physical laws and cruise through time and space by
+     being creative and innovative, thus opening-up the limitless opportunities in an endless Space.
+     
+     Karunya offers:
+     - B.Tech in Aerospace Engineering
+     
+
+  utter_bio:
+  - text: |
+      The program gives prime importance to creative and independent thinking and
+      facilitates problem solving attitude via various real-time exposure and laboratory sessions. 
+      The huge breadth in the field of biomedical engineering allows students to choose from 
+      a wide range of research and higher studies options and also is a discipline that
+      assures placements in hospital, medical equipment manufacturing and servicing companies,
+      medical coding concerns, signal and image processing sectors in IT concern.
+      
+      Karunya offers:
+      - B.Tech Biomedical Engineering
+      - M.Tech Biomedical Instrumentation Engineering
+
 
 actions:
   - action_college_info
