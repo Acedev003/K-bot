@@ -202,6 +202,7 @@ nlu:
    - Directions to university
    - directions to KU
    - Location of KU
+   - Take me to college
 
 - intent: ask_courses
   examples: |
