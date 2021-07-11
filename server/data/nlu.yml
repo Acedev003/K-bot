@@ -179,6 +179,30 @@ nlu:
    - Facts on college
    - Fact on cllg
 
+- intent: college_location
+  examples: |
+   - Where is the college located?
+   - College location
+   - How do I get to Karunya
+   - How far is the college
+   - How do i get to college?
+   - Where is the college?
+   - How can i reach college
+   - How to reach university
+   - Location of the college
+   - Location of univeristy
+   - Where is KU located
+   - Where is Karunya university located
+   - Where is this
+   - Direct me to college
+   - Direct me to Karunya
+   - Direct me to KU
+   - Give me the directions to college
+   - Gimme direction to KU
+   - Directions to university
+   - directions to KU
+   - Location of KU
+
 - intent: ask_courses
   examples: |
     - courses offered in karunya
@@ -534,6 +558,7 @@ nlu:
     - cu next time
     - sayonara
     - see you
+    - see u
 
 - intent: affirm
   examples: |
