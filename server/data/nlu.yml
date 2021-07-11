@@ -510,6 +510,30 @@ nlu:
     - see you around
     - bye bye
     - see you later
+    - Adios
+    - adios amigo
+    - byeee
+    - bye...
+    - cya
+    - see ya
+    - cheerio!
+    - cheerio )
+    - cheerio
+    - bye )
+    - bye for now !
+    - cya later
+    - Catch u later
+    - I’ve got to get going 
+    - ive got to get going
+    - I’ve got to get goin
+    - Peace out
+    - I gotta head out
+    - thanks, bye
+    - thanks for the help, goodbye
+    - thanks goodbye
+    - cu next time
+    - sayonara
+    - see you
 
 - intent: affirm
   examples: |
@@ -573,6 +597,7 @@ nlu:
 
 - intent: out_of_scope
   examples: |
+    - see
     - I want to order food
     - What is 2 + 2?
     - Who's the US President?
