@@ -522,45 +522,6 @@ nlu:
    - getting into karunya
    - 
 
-- intent: goodbye
-  examples: |
-    - good bye
-    - cu
-    - good by
-    - cee you later
-    - good night
-    - bye
-    - goodbye
-    - have a nice day
-    - see you around
-    - bye bye
-    - see you later
-    - Adios
-    - adios amigo
-    - byeee
-    - bye...
-    - cya
-    - see ya
-    - cheerio!
-    - cheerio )
-    - cheerio
-    - bye )
-    - bye for now !
-    - cya later
-    - Catch u later
-    - I’ve got to get going 
-    - ive got to get going
-    - I’ve got to get goin
-    - Peace out
-    - I gotta head out
-    - thanks, bye
-    - thanks for the help, goodbye
-    - thanks goodbye
-    - cu next time
-    - sayonara
-    - see you
-    - see u
-
 - intent: affirm
   examples: |
     - yes
@@ -620,6 +581,45 @@ nlu:
     - are you a human?
     - am I talking to a bot?
     - am I talking to a human?
+
+- intent: goodbye
+  examples: |
+    - good bye
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+    - Adios
+    - adios amigo
+    - byeee
+    - bye...
+    - cya
+    - see ya
+    - cheerio!
+    - cheerio )
+    - cheerio
+    - bye )
+    - bye for now !
+    - cya later
+    - Catch u later
+    - I’ve got to get going 
+    - ive got to get going
+    - I’ve got to get goin
+    - Peace out
+    - I gotta head out
+    - thanks, bye
+    - thanks for the help, goodbye
+    - thanks goodbye
+    - cu next time
+    - sayonara
+    - see you
+    - see u
 
 - intent: out_of_scope
   examples: |
