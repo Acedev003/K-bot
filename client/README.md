@@ -1,1 +1,1 @@
-Client side of the chatbot
+Client side of the K-bot
