@@ -60,6 +60,12 @@ responses:
 
   utter_goodbye:
   - text: "Okay, bye!"
+  - text: "Bye, See you later 😊"
+  - text: "Goodbye 🙂"
+  - text: "Bye, Have a nice day."
+  - text: "Bye, Have a good day."
+  - text: "Bye, See you soon. 😀"
+  - text: "Goodbye! It was great to talk with you. "
 
   utter_sorry:
   - text: "I am sorry. Anything else I can help you with?"
