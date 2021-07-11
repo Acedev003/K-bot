@@ -243,7 +243,6 @@ nlu:
     - Btech courses available
     - B.tech courses 
     
-
 - intent: cse
   examples: |
    - cse
@@ -338,11 +337,6 @@ nlu:
    - biomedical engineering
    - is biomedical engineering available at karunya
 
-
-    
-
-
-
 - intent: okaytext
   examples: |
    - okay
@@ -366,7 +360,6 @@ nlu:
    - hmm
    - fair
    - good enough
-
 
 - intent: whyKU
   examples: |
@@ -399,7 +392,6 @@ nlu:
    - karunya college
    - KIT
   
-
 - intent: fee
   examples: |
    - What is the fee structure
@@ -507,7 +499,7 @@ nlu:
 
 - intent: goodbye
   examples: |
-    - good afternoon
+    - good bye
     - cu
     - good by
     - cee you later
