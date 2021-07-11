@@ -8,6 +8,7 @@ intents:
   - mood_great
   - mood_unhappy
   - bot_challenge
+  - college_location
   - ask_courses
   - college_info
   - whyKU
