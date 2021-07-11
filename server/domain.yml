@@ -65,7 +65,7 @@ responses:
   - text: "Bye, Have a nice day."
   - text: "Bye, Have a good day."
   - text: "Bye, See you soon. 😀"
-  - text: "Goodbye! It was great to talk with you. "
+  - text: "Goodbye! It was great to chat with you. "
 
   utter_sorry:
   - text: "I am sorry. Anything else I can help you with?"
