@@ -41,11 +41,20 @@ slots:
 
 responses:
   utter_greet:
-  - text: "Hey! How may I help you?"
-  - text: "Hello there!How may I assist you today?"
-  - text: "Hi! Ask me any questions related to Karunya!"
-  - text: "Hi there! 😃 How may I help you? "
+   - text: "Hello 👋\nHow may I help you?"
+   - text: "Hello there! How may I assist you today?"
+   - text: "Hi! Ask me any questions related to Karunya!"
+   - text: "Hi there! 😃 How may I help you?"
+   - text: "Hi 🙂 How can I help you out?"
+   - text: "Hi there 👋 If you need any assistance, I can help you out."
 
+  utter_greet_neutral:
+   - text: "Hey! Any help needed?"
+   - text: "Any extra hands needed?"
+   - text: "Hi 🙂 Feel free to ask me any questions related to Karunya!"
+   - text: "Hola! How may I help you?"
+   - text: "How can I help you out?"
+   - text: "Hello 👋 If you need any assistance, I can help you out."    
 
   utter_fees:
   - text: "To know more about the fees structures and courses:\n\n\nUG students visit this link: https://admissions.karunya.edu/ug \n\n PG students visit this link: https://admissions.karunya.edu/pg \n\n Research students visit this link: https://admissions.karunya.edu/programmes/research "

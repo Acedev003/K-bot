@@ -148,6 +148,92 @@ nlu:
     - yoo
     - ssup?
     - helleo
+    - Hey pal
+    - GM
+    - Gud mrng
+    - Gud aftrnoon
+    - Gud evening
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+    - Lovely
+    - Thats so good
+    - Amazing
+    - awesome
+    - coool
+    - That's very good
+    - Sounds good to me
+    - Its awesome
+    - It's amazing
+    - Very very good
+    - Super excited
+    - Its marvellous
+    - Excellent
+    - That's perfect
+    - Thats cool
+    - its perfect
+    - love it
+    - love this
+    - I love this
+    - This is exciting
+
+- intent: mood_unhappy
+  examples: |
+    - this is horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+    - this sucks
+    - This is so boring
+    - very bad
+    - Meh 
+    - Shut up
+    - Stupid
+    - Fek u
+    - Fuck you
+    - You are an idiot
+    - Shut up moron
+    - Very very bad
+    - this is bad
+    - im not impressed
+    - i am unimpressed
+    - Not good at all
+    - I hate this
+    - i'm not at all excited
+    - Don’t you speak English?!
+    - Why is this so bad
+    - This is so imprefect
+    - Not at all perfect
+    - This aint perfect
+    - Get lost
+    - Go away
+
+
+
 
 - intent: college_info
   examples: |
@@ -588,40 +674,6 @@ nlu:
     - don't like that
     - no way
     - not really
-
-- intent: mood_great
-  examples: |
-    - perfect
-    - great
-    - amazing
-    - feeling like a king
-    - wonderful
-    - I am feeling very good
-    - I am great
-    - I am amazing
-    - I am going to save the world
-    - super stoked
-    - extremely good
-    - so so perfect
-    - so good
-    - so perfect
-
-- intent: mood_unhappy
-  examples: |
-    - my day was horrible
-    - I am sad
-    - I don't feel very well
-    - I am disappointed
-    - super sad
-    - I'm so sad
-    - sad
-    - very sad
-    - unhappy
-    - not good
-    - not very good
-    - extremly sad
-    - so saad
-    - so sad
 
 - intent: bot_challenge
   examples: |
