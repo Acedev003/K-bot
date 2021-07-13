@@ -231,6 +231,12 @@ nlu:
    - What are the fees at college
    - What r the fees at KU
    - Wut are the fees
+   - Can u gimme an overview of the fee structure of btech in cse at karunya
+   - Can u gimme an overview of the fee structure of pg programs in cse at karunya
+   - Overview of fees of pg courses 
+   - FeeS OF ug courses at karunya
+   - fees of agri courses 
+   - How much is the agriculture courses
 
 - intent: ask_courses
   examples: |
