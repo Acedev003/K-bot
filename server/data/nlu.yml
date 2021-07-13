@@ -204,6 +204,28 @@ nlu:
    - Location of KU
    - Take me to college
 
+- intent: fees
+  examples: |
+   - where do i pay my fees
+   - karunya fees structure
+   - fee structure
+   - fee details
+   - fee data
+   - btech fees
+   - ug fees
+   - pg fees 
+   - fee details
+   - admission fee details
+   - how much is the cost in KU
+   - how expensive is KU
+   - fees structure
+   - semester fees
+   - semster fees
+   - college fees
+   - Payment details
+   - How much cash is required?
+   - money for admissions
+
 - intent: ask_courses
   examples: |
     - courses offered in karunya
