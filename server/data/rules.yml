@@ -32,6 +32,11 @@ rules:
   - intent: fees
   - action: utter_fees
 
+- rule : scholarship_enquiry
+  steps:
+  - intent: scholarship
+  - action: utter_scholarship
+
 
 
  
