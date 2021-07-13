@@ -49,7 +49,7 @@ responses:
 
 
   utter_fees:
-  - text: "To know more about the fees structures and courses:\n\n UG students visit this link: https://admissions.karunya.edu/ug \n\n PG students visit this link: https://admissions.karunya.edu/pg \n\n Research students visit this link: https://admissions.karunya.edu/programmes/research "
+  - text: "To know more about the fees structures and courses:\n\n\nUG students visit this link: https://admissions.karunya.edu/ug \n\n PG students visit this link: https://admissions.karunya.edu/pg \n\n Research students visit this link: https://admissions.karunya.edu/programmes/research "
 
   utter_scholarship:
   - text: "For more details on scholarships visit : https://www.karunya.edu/student/scholarship and https://admissions.karunya.edu/scholarships"
