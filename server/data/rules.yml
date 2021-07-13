@@ -27,6 +27,10 @@ rules:
   - intent: out_of_scope
   - action: utter_out_of_scope
 
+- rule : fee_enquiry
+  steps:
+  - intent:fees
+  - action: utter_fees
 
 
 

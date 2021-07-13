@@ -45,10 +45,10 @@ responses:
   - text: "Hello there!How may I assist you today?"
   - text: "Hi! Ask me any questions related to Karunya!"
 
-  utter_cheer_up:
-  - text: "Here is something to cheer you up:"
-    image: "https://i.imgur.com/nGF1K8f.jpg"
-    
+
+  utter_fees:
+  - text: "To know more about the fees structures and courses:\n\n UG students visit this link: https://admissions.karunya.edu/ug \n\n PG students visit this link: https://admissions.karunya.edu/pg \n\n Research students visit this link: https://admissions.karunya.edu/programmes/research "
+
   utter_did_that_help:
   - text: "Did that help you?"
 
