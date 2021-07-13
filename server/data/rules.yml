@@ -36,7 +36,3 @@ rules:
   steps:
   - intent: scholarship
   - action: utter_scholarship
-
-
-
- 

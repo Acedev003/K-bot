@@ -12,7 +12,6 @@ intents:
   - ask_courses
   - college_info
   - whyKU
-  - fees
   - scholarship
   - hostel
   - howTo
