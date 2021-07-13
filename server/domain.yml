@@ -12,7 +12,8 @@ intents:
   - ask_courses
   - college_info
   - whyKU
-  - fee
+  - fees
+  - scholarship
   - hostel
   - howTo
   - placements
@@ -44,10 +45,14 @@ responses:
   - text: "Hey! How may I help you?"
   - text: "Hello there!How may I assist you today?"
   - text: "Hi! Ask me any questions related to Karunya!"
+  - text: "Hi there! 😃 How may I help you? "
 
 
   utter_fees:
   - text: "To know more about the fees structures and courses:\n\n UG students visit this link: https://admissions.karunya.edu/ug \n\n PG students visit this link: https://admissions.karunya.edu/pg \n\n Research students visit this link: https://admissions.karunya.edu/programmes/research "
+
+  utter_scholarship:
+  - text: "For more details on scholarships visit : https://www.karunya.edu/student/scholarship and https://admissions.karunya.edu/scholarships"
 
   utter_did_that_help:
   - text: "Did that help you?"

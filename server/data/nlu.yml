@@ -238,6 +238,20 @@ nlu:
    - fees of agri courses 
    - How much is the agriculture courses
 
+- intent: scholarship
+  examples: |
+   - Does the university offer scholarships for students
+   - scholarships available at Karunya
+   - scholarship offers
+   - Details of scholarships available for students
+   - Scholarship offers 
+   - what all scholarships can students apply for 
+   - Am i eligible for scholarship
+   - Can you tell me more about scholarship offerings at KU
+   - What all scholarships can students apply for
+   - scholarship application
+   - how do i apply for scholarships
+
 - intent: ask_courses
   examples: |
     - courses offered in karunya
