@@ -225,6 +225,12 @@ nlu:
    - Payment details
    - How much cash is required?
    - money for admissions
+   - Um, can you tell me more about th fee structure
+   - Tell me more the about the fees at Karunya
+   - Can you tell more abt the fees at the university
+   - What are the fees at college
+   - What r the fees at KU
+   - Wut are the fees
 
 - intent: ask_courses
   examples: |

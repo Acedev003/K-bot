@@ -29,7 +29,7 @@ rules:
 
 - rule : fee_enquiry
   steps:
-  - intent:fees
+  - intent: fees
   - action: utter_fees
 
 
