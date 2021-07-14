@@ -62,7 +62,7 @@ responses:
    - text: "I'm extremely sorry, but I can't this request yet."
    - text: "Extremely sorry! I cannot handle this request yet. Is there anything else you woukd like me to assist you with?"
    - text: "Uh-oh. I'm not sure if I would be able to execute your request 😥 \n Would you like me to assist you with anything else?"
-   - text: "Uh-oh. I'm not confident if I would be able to execute your request. \n Would you like me to help you out with anything else?"
+   - text: "Uh-oh. 😔 I'm not confident if I would be able to execute your request. \n Would you like me to help you out with anything else?"
 
 
   utter_please_rephrase:
