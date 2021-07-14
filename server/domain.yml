@@ -53,7 +53,7 @@ responses:
    - text: "Any extra hands needed?"
    - text: "Hi 🙂 Feel free to ask me any questions related to Karunya!"
    - text: "Hola! How may I help you?"
-   - text: "How can I help you out?"
+   - text: "Hi! How can I help you out?"
    - text: "Hello 👋 If you need any assistance, I can help you out."    
 
   utter_out_of_scope:
@@ -64,12 +64,16 @@ responses:
    - text: "Uh-oh. I'm not sure if I would be able to execute your request 😥 \n Would you like me to assist you with anything else?"
    - text: "Uh-oh. 😔 I'm not confident if I would be able to execute your request. \n Would you like me to help you out with anything else?"
 
-
   utter_please_rephrase:
-  - text: "I'm sorry, I didn't quite understand that. Could you please rephrase?"
-  - text: "Sorry, I didn't quite get you. Could you please rephrase that for me ?"
-  - text: "I was not able to understand that. Can you please rephrase that?"
+   - text: "I'm sorry, I didn't quite understand that. Could you please rephrase?"
+   - text: "Sorry, I didn't quite get you. Could you please rephrase that for me ?"
+   - text: "I was not able to understand that. Can you please rephrase that?"
 
+  utter_iamabot:
+   - text: "I am a bot, built by students at Karunya to assist you with all your queries."
+   - text: "I am a bot, built to assist you with all your queries on this university"
+   - text: "Yep, I am a bot 🤖"
+  
   utter_fees:
   - text: "To know more about the fees structures and courses:\n\n\nUG students visit this link: https://admissions.karunya.edu/ug \n\n PG students visit this link: https://admissions.karunya.edu/pg \n\n Research students visit this link: https://admissions.karunya.edu/programmes/research "
 
@@ -98,9 +102,7 @@ responses:
   utter_sorry:
   - text: "I am sorry. Anything else I can help you with?"
 
-  utter_iamabot:
-  - text: "I am a bot, powered by Rasa."
-
+  
   
   utter_whyKU:
   - text: |
