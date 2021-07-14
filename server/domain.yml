@@ -72,7 +72,7 @@ responses:
   utter_iamabot:
    - text: "I am a bot, built by students at Karunya to assist you with all your queries."
    - text: "I am a bot, built to assist you with all your queries on this university"
-   - text: "Yep, I am a bot 🤖"
+   - text: "I'm a simple bot to assist you with your queries on Karunya"
   
   utter_fees:
   - text: "To know more about the fees structures and courses:\n\n\nUG students visit this link: https://admissions.karunya.edu/ug \n\n PG students visit this link: https://admissions.karunya.edu/pg \n\n Research students visit this link: https://admissions.karunya.edu/programmes/research "

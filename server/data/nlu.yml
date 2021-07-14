@@ -312,6 +312,22 @@ nlu:
     - Is this a bot
     - u a human or robot?
     - Are you a bot
+    - is this a bot?
+    - aint you a bot
+    - who are you?
+    - Who am i speaking to
+    - May I know your name
+    - What are you
+    - Who is this
+    - Is this a chatbot
+    - Is this a chatbt
+    - May i know who you are?
+    - You a bot?
+    - Is this a human
+    - Your name
+    - May I know your name 
+    - How do i call you
+    
 
 - intent: out_of_scope
   examples: |
