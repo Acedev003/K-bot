@@ -30,14 +30,7 @@ intents:
   - aero
   - bio
 
-entities:
-  - name
 
-slots:
-  name:
-    type: text
-    auto_fill: true
-    influence_conversation: true
 
 responses:
   utter_greet:
@@ -74,6 +67,14 @@ responses:
    - text: "I am a bot, built to assist you with all your queries on this university"
    - text: "I'm a simple bot to assist you with your queries on Karunya"
   
+  utter_collegeinfo:
+   - text: |
+      Karunya Institute of Technology and Sciences, was founded with the noble vision to raise professionals and leaders of high academic calibre and unblemished character, nurtured with a strong motivation and commitment to serve humanity.
+      Established in 1986 as an Engineering College, it was granted autonomous status in 1999 and declared Deemed-to-be University by the UGC in the year 2004.
+      The college is also present in a very scenic location, with a very pleasant climate all year round.
+      For more info visit: https://karunya.edu/about-us
+
+
   utter_fees:
   - text: "To know more about the fees structures and courses:\n\n\nUG students visit this link: https://admissions.karunya.edu/ug \n\n PG students visit this link: https://admissions.karunya.edu/pg \n\n Research students visit this link: https://admissions.karunya.edu/programmes/research "
 
@@ -272,8 +273,6 @@ responses:
       - M.Tech Biomedical Instrumentation Engineering
 
 
-actions:
-  - action_college_info
 
 session_config:
   session_expiration_time: 60

@@ -328,7 +328,6 @@ nlu:
     - May I know your name 
     - How do i call you
     
-
 - intent: out_of_scope
   examples: |
     - see
@@ -338,6 +337,10 @@ nlu:
     - I am hungry
     - I dont want to go to college
     - I dont like studying
+    - What's the cricket score
+    - Do we have biriyani
+    - who won the match
+    - Free food
 
 - intent: college_info
   examples: |

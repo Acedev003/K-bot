@@ -7,7 +7,7 @@ stories:
   - intent: greet
   - action: utter_greet
   - intent: college_info
-  - action: action_college_info
+  - action: utter_collegeinfo
   - intent: whyKU
   - action: utter_whyKU
   - intent: ask_courses
@@ -79,7 +79,7 @@ stories:
   - intent: howTo
   - action: utter_howTo
   - intent: college_info
-  - action: action_college_info
+  - action: utter_collegeinfo
   - intent: whyKU
   - action: utter_whyKU
 
