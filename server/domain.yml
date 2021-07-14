@@ -87,10 +87,28 @@ responses:
       This link might help you to navigate to our college easily: https://g.page/karunyauniv?share
 
   utter_fees:
-   - text: "To know more about the fees structures and courses:\n\n\nUG students visit this link: https://admissions.karunya.edu/ug \n\n PG students visit this link: https://admissions.karunya.edu/pg \n\n Research students visit this link: https://admissions.karunya.edu/programmes/research "
+   - text: "To know more about the fees structures and courses:\n\n\nFor UG students : https://admissions.karunya.edu/ug \n\n PG students: https://admissions.karunya.edu/pg \n\n Research students: https://admissions.karunya.edu/programmes/research "
+   - text: "For info about fees structure and course details :\n\n\nFor UG students : https://admissions.karunya.edu/ug \n\n PG students: https://admissions.karunya.edu/pg \n\n Research students: https://admissions.karunya.edu/programmes/research "
+   - text: "You can get details about  fees and courses in the links given below :- \n\n\nFor UG students : https://admissions.karunya.edu/ug \n\n PG students: https://admissions.karunya.edu/pg \n\n Research students: https://admissions.karunya.edu/programmes/research "
 
   utter_scholarship:
-   - text: "For more details on scholarships visit :- \n https://www.karunya.edu/student/scholarship \n https://admissions.karunya.edu/scholarships"
+   - text: |
+      The university grants exciting scholarship opportunities for all deserving students.
+      For more info visit the below links:-
+      https://www.karunya.edu/student/scholarship
+      https://admissions.karunya.edu/scholarships
+
+   - text: |
+      Karunya offers amazing scholarship opportunities for all deserving students 🥳🥳🥳
+      For more details on scholarships visit the links below:-
+      https://www.karunya.edu/student/scholarship
+      https://admissions.karunya.edu/scholarships
+
+   - text: |
+      All deserving students are offered great scholarships at karunya. 😀
+      For more details on scholarships visit the links below:-
+      https://www.karunya.edu/student/scholarship
+      https://admissions.karunya.edu/scholarships
 
   utter_did_that_help:
    - text: "Did that help you?"

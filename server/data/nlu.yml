@@ -396,6 +396,15 @@ nlu:
    - directions to KU
    - Location of KU
    - Take me to college
+   - How far is Karunya from the city
+   - Which is the nearest airport 
+   - How do i reach Karunya from Coimbatore
+   - Nearest railway station to College
+   - Closest airport to college
+   - How do i get to college by rail
+   - How do i get to Karunya by air
+   - Nearest station to the college
+   - Nearest airport to KU
 
 - intent: fees
   examples: |
