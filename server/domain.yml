@@ -74,15 +74,26 @@ responses:
       The college is also present in a very scenic location, with a very pleasant climate all year round.
       For more info visit: https://karunya.edu/about-us
 
+  utter_location:
+   - text: |
+      The college is situated approximately 30 kms away from Coimbatore city and connected to the city via the Siruvani main road. 
+      The nearest airport is Coimbatore International Airport(CJB) while the nearest railway station is Coimatore Junction(CBE)
+      This link might help you to get the exact location of our college: https://g.page/karunyauniv?share
+   
+   - text: |
+      The college is situated around 30 kms away from Coimbatore city near to the Siruvani Hills. 
+      The nearest railway station in Coimbatore Junction(CBE).
+      If you are coming in by air, the nearest airport is Coimbatore International Airport(CJB).
+      This link might help you to navigate to our college easily: https://g.page/karunyauniv?share
 
   utter_fees:
-  - text: "To know more about the fees structures and courses:\n\n\nUG students visit this link: https://admissions.karunya.edu/ug \n\n PG students visit this link: https://admissions.karunya.edu/pg \n\n Research students visit this link: https://admissions.karunya.edu/programmes/research "
+   - text: "To know more about the fees structures and courses:\n\n\nUG students visit this link: https://admissions.karunya.edu/ug \n\n PG students visit this link: https://admissions.karunya.edu/pg \n\n Research students visit this link: https://admissions.karunya.edu/programmes/research "
 
   utter_scholarship:
-  - text: "For more details on scholarships visit : https://www.karunya.edu/student/scholarship and https://admissions.karunya.edu/scholarships"
+   - text: "For more details on scholarships visit :- \n https://www.karunya.edu/student/scholarship \n https://admissions.karunya.edu/scholarships"
 
   utter_did_that_help:
-  - text: "Did that help you?"
+   - text: "Did that help you?"
 
   utter_okay:
   - text: "Yeah! Anything else I can help you with?"
