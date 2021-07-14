@@ -56,6 +56,20 @@ responses:
    - text: "How can I help you out?"
    - text: "Hello 👋 If you need any assistance, I can help you out."    
 
+  utter_out_of_scope:
+   - text: "Sorry 😶 I can't handle that request yet."
+   - text: "Oops! That's beyond my capabilities at the moment 😔"
+   - text: "I'm extremely sorry, but I can't this request yet."
+   - text: "Extremely sorry! I cannot handle this request yet. Is there anything else you woukd like me to assist you with?"
+   - text: "Uh-oh. I'm not sure if I would be able to execute your request 😥 \n Would you like me to assist you with anything else?"
+   - text: "Uh-oh. I'm not confident if I would be able to execute your request. \n Would you like me to help you out with anything else?"
+
+
+  utter_please_rephrase:
+  - text: "I'm sorry, I didn't quite understand that. Could you please rephrase?"
+  - text: "Sorry, I didn't quite get you. Could you please rephrase that for me ?"
+  - text: "I was not able to understand that. Can you please rephrase that?"
+
   utter_fees:
   - text: "To know more about the fees structures and courses:\n\n\nUG students visit this link: https://admissions.karunya.edu/ug \n\n PG students visit this link: https://admissions.karunya.edu/pg \n\n Research students visit this link: https://admissions.karunya.edu/programmes/research "
 
@@ -87,8 +101,6 @@ responses:
   utter_iamabot:
   - text: "I am a bot, powered by Rasa."
 
-  utter_out_of_scope:
-  - text: "Sorry, I can't handle that request."
   
   utter_whyKU:
   - text: |

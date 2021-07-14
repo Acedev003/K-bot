@@ -232,8 +232,96 @@ nlu:
     - Get lost
     - Go away
 
+- intent: goodbye
+  examples: |
+    - good bye
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+    - Adios
+    - adios amigo
+    - byeee
+    - bye...
+    - cya
+    - see ya
+    - cheerio!
+    - cheerio )
+    - cheerio
+    - bye )
+    - bye for now !
+    - cya later
+    - Catch u later
+    - I’ve got to get going 
+    - ive got to get going
+    - I’ve got to get goin
+    - Peace out
+    - I gotta head out
+    - thanks, bye
+    - thanks for the help, goodbye
+    - thanks goodbye
+    - cu next time
+    - sayonara
+    - see you
+    - see u
+    - bubye
+    - Bye bye 
+    - See you later
 
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+    - Lets go with this 
+    - yeah
+    - affirm
+    - I agree
 
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+    - Dont go with this
+    - Nah
+    - incorrect
+    - deny
+    - I dont support this
+    - I disagree
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+    - Is this a bot
+    - u a human or robot?
+    - Are you a bot
+
+- intent: out_of_scope
+  examples: |
+    - see
+    - I want to order food
+    - What is 2 + 2?
+    - Who's the US President?
+    - I am hungry
+    - I dont want to go to college
+    - I dont like studying
 
 - intent: college_info
   examples: |
@@ -656,77 +744,3 @@ nlu:
    - getting into karunya
    - 
 
-- intent: affirm
-  examples: |
-    - yes
-    - y
-    - indeed
-    - of course
-    - that sounds good
-    - correct
-
-- intent: deny
-  examples: |
-    - no
-    - n
-    - never
-    - I don't think so
-    - don't like that
-    - no way
-    - not really
-
-- intent: bot_challenge
-  examples: |
-    - are you a bot?
-    - are you a human?
-    - am I talking to a bot?
-    - am I talking to a human?
-
-- intent: goodbye
-  examples: |
-    - good bye
-    - cu
-    - good by
-    - cee you later
-    - good night
-    - bye
-    - goodbye
-    - have a nice day
-    - see you around
-    - bye bye
-    - see you later
-    - Adios
-    - adios amigo
-    - byeee
-    - bye...
-    - cya
-    - see ya
-    - cheerio!
-    - cheerio )
-    - cheerio
-    - bye )
-    - bye for now !
-    - cya later
-    - Catch u later
-    - I’ve got to get going 
-    - ive got to get going
-    - I’ve got to get goin
-    - Peace out
-    - I gotta head out
-    - thanks, bye
-    - thanks for the help, goodbye
-    - thanks goodbye
-    - cu next time
-    - sayonara
-    - see you
-    - see u
-
-- intent: out_of_scope
-  examples: |
-    - see
-    - I want to order food
-    - What is 2 + 2?
-    - Who's the US President?
-    - I am hungry
-    - I dont want to go to college
-    - I dont like studying
