@@ -51,3 +51,59 @@ rules:
   steps:
   - intent: scholarship
   - action: utter_scholarship
+
+- rule : btech enquiry
+  steps:
+  - intent: btech
+  - action: utter_btech
+
+- rule : cse enquiry
+  steps:
+  - intent: cse
+  - action: utter_cse
+
+- rule : civil enquiry
+  steps:
+  - intent: civil
+  - action: utter_civil
+
+- rule : mech enquiry
+  steps:
+  - intent: mech
+  - action: utter_mech
+
+- rule : eee enquiry
+  steps:
+  - intent: eee
+  - action: utter_eee
+
+- rule : ece enquiry
+  steps:
+  - intent: ece
+  - action: utter_ece
+
+- rule : robo enquiry
+  steps:
+  - intent: robo
+  - action: utter_robo
+
+- rule : aero enquiry
+  steps:
+  - intent: aero
+  - action: utter_aero
+
+- rule : bio enquiry
+  steps:
+  - intent: bio
+  - action: utter_bio
+
+- rule : pg enquiry
+  steps:
+  - intent: pg
+  - action: utter_pg
+
+- rule : bsc enquiry
+  steps:
+  - intent: bsc
+  - action: utter_bsc
+
