@@ -35,8 +35,8 @@ intents:
 responses:
   utter_greet:
    - text: "Hello 👋\nHow may I help you?"
-   - text: "Hello there! How may I assist you today?"
-   - text: "Hi! Ask me any questions related to Karunya!"
+   - text: "Hello there! 👋 How may I assist you today?"
+   - text: "Hi 😀. I'm K-Bot. Feel free to ask me any questions related to Karunya!"
    - text: "Hi there! 😃 How may I help you?"
    - text: "Hi 🙂 How can I help you out?"
    - text: "Hi there 👋 If you need any assistance, I can help you out."
@@ -113,12 +113,17 @@ responses:
   utter_did_that_help:
    - text: "Did that help you?"
 
+  utter_console:
+  - text: Oops! Is there anyway I can help you out. If still doubtful, you can get more info from the university website or by contacting the helpdesk.\nWebpage - https://karunya.edu\nHelpDesk - 1800 425 4300 (TollFree) or (91) 422 2363636
+  - text: "I am sorry. Anything else I can help you with? \nIf still in doubt, you can grab more from our university website or by contacting the helpdesk.\nWebpage - https://karunya.edu\nHelpDesk - 1800 425 4300 (TollFree) or (91) 422 2363636"
+
   utter_okay:
   - text: "Yeah! Anything else I can help you with?"
 
   utter_happy:
   - text: "Great, carry on!"
   - text: "Good to hear that!"
+  - text: "Thank you 😃. Anything other queries?"
 
   utter_goodbye:
   - text: "Okay, bye!"
@@ -128,10 +133,6 @@ responses:
   - text: "Bye, Have a good day."
   - text: "Bye, See you soon. 😀"
   - text: "Goodbye! It was great to chat with you. "
-
-  utter_sorry:
-  - text: "I am sorry. Anything else I can help you with?"
-
   
   
   utter_whyKU:
@@ -301,6 +302,11 @@ responses:
       - B.Tech Biomedical Engineering
       - M.Tech Biomedical Instrumentation Engineering
 
+  utter_pg:
+  - text: For more info on the PG courses we offer, visit https://admissions.karunya.edu/pg
+
+  utter_bsc:
+  - text: For more info on the PG courses we offer, visit https://admissions.karunya.edu/ug
 
 
 session_config:

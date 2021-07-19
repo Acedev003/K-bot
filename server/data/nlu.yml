@@ -161,16 +161,13 @@ nlu:
     - amazing
     - feeling like a king
     - wonderful
-    - I am feeling very good
-    - I am great
-    - I am amazing
-    - I am going to save the world
+    - feeling very good
+    - amazing
     - super stoked
     - extremely good
     - so so perfect
     - so good
     - so perfect
-    - Lovely
     - Thats so good
     - Amazing
     - awesome
@@ -190,6 +187,93 @@ nlu:
     - love this
     - I love this
     - This is exciting
+    - Cool
+    - This is awesome 
+    - Lovely
+    - super 
+    - super duper
+    - That's soo coool
+    - thats so cool
+    - its so awesome
+    - very cool
+    - nice
+    - that's very awesome
+    - perffect
+    - super cool
+    - So great
+    - aweosome
+    - this is so nice
+    - this rocks
+    - rocking
+    - very good
+    - super nice
+    - marvellous
+    - wow
+    - wow!
+    - That's nice
+    - this is great
+    - impressive
+    - that's impressive
+    - its cool
+    - its nice
+    - it's cool
+    - it's impressive
+    - its awesome
+    - i am impressed
+    - its great
+    - it's perfect
+    - this suits me well
+    - its nice
+    - goood
+    - good
+    - its good
+    - this is good
+    - very impressive
+    - very excited
+    - lovely!
+    - this is super duper 
+    - Gut
+    - fantastic
+    - thats just fantastic
+    - this is just fantastic
+    - that is just awesome
+    - thats so impressive
+    - very fantastic
+    - fantabulous
+    - incredible
+    - this is incredible
+    - its so incredible
+    - marvellous
+    - This is marvellous
+    - So incredible
+    - wonderful
+    - this is so wonderful
+    - just awesome
+    - just so coool
+    - just incredible
+    - just awesome
+    - im in awe
+    - i am awe inspired
+    - superb
+    - superb service
+    - superb job
+    - remarkable service
+    - remarkable 
+    - that's remarkable
+    - Quite remarkable
+    - excellent
+    - that's excellent
+    - excellent service
+    - excellent job
+    - amazing fees
+    - this is so great 
+    - very great
+    - karunya is so exciting
+    - karunya is awesome 
+    - College is fantastic
+    - College is coool
+    - Superb college
+    - super college
 
 - intent: mood_unhappy
   examples: |
@@ -231,6 +315,95 @@ nlu:
     - This aint perfect
     - Get lost
     - Go away
+    - bad
+    - rubbish
+    - nonsense
+    - what nonsense
+    - crap
+    - this bot is crap
+    - shit stuff
+    - not good
+    - this is so disappointing
+    - disappointing
+    - not impressive
+    - not good at all
+    - not impressive at all
+    - not fantastic
+    - this place is shit
+    - wtf
+    - WTF
+    - WTH
+    - what the heck
+    - what the hek
+    - what the fuck
+    - what the fek
+    - nonsensical
+    - this is so disheartening
+    - its bad
+    - this is veryvery bad
+    - terrible
+    - the university is terrible
+    - the unversity is bad
+    - this college is so bad
+    - bad college
+    - stupid university
+    - stupid
+    - this is atrocious
+    - atrocious
+    - this is soo atrocious
+    - absolutely ridiculous
+    - the fees is so atrocious 
+    - ridiculous brochure
+    - this college is bad
+    - so substandard
+    - substandard
+    - everything is crap
+    - this is just crap
+    - KU is substandard
+    - what an idiotic college
+    - idiotic unviersity
+    - this is a scam
+    - scam
+    - scam alert
+    - this thing is a scam
+    - what a scam
+    - fuck off
+    - get off
+    - stop this nonsense
+    - im so irritated
+    - irritating
+    - mad
+    - not nice
+    - this aint good
+    - it aint nice
+    - bull shit
+    - this is bullshit
+    - sounds phoney
+    - not right
+    - not at all acceptable
+    - i cannot digest this
+    - very phoney
+    - university is so worthless
+    - piece of junk
+    - junk
+    - waste
+    - this college is such a waste
+    - Karunya is a waste
+    - worthless junk
+    - this is very expensive
+    - this is sooo overpriced
+    - im depressed
+    - this is not worth the price
+    - Fees is not worth it
+    - Geez, the fees are so pricy
+    - Very very expensive
+    - not at all worth paying
+    - no good courses
+    - no oppotunities
+    - very bad placements
+    - horrible
+    - hopeless
+    - crap junk shit
 
 - intent: goodbye
   examples: |
@@ -273,6 +446,34 @@ nlu:
     - bubye
     - Bye bye 
     - See you later
+    - byeeee
+    - Okie bye
+    - c ya later
+    - c u later
+    - cu ltr
+    - bye amigos
+    - bye friend
+    - bye bot
+    - GN
+    - Good night
+    - ciao
+    - Good bye
+    - i have to leave
+    - tata
+    - cya
+    - iM leaving, cu any time soon
+    - see you later
+    - hope to see you later, bye
+    - farewell
+    - adieu
+    - au revoir
+    - meet you later
+    - will talk with u any other time. Bye!
+    - bye-bye
+    - catch you later
+    - thnx, bye
+    - catch ya later
+    - I have to go now, bye for now
 
 - intent: affirm
   examples: |
@@ -286,6 +487,22 @@ nlu:
     - yeah
     - affirm
     - I agree
+    - yup
+    - go on
+    - yess
+    - agreed
+    - continue
+    - carry on 
+    - sounds good to me
+    - go ahead
+    - Yas
+    - completely agree
+    - i consent
+    - move ahead
+    - move on
+    - confirmed
+    - yes, choose this
+    - yus
 
 - intent: deny
   examples: |
@@ -302,6 +519,18 @@ nlu:
     - deny
     - I dont support this
     - I disagree
+    - no no n on 
+    - nono
+    - Dont move ahead
+    - I disagree with this 
+    - dont carry on
+    - stop
+    - nope
+    - dont do it
+    - dont move foreward
+    - Nah
+    - no!
+    - don't
 
 - intent: bot_challenge
   examples: |
@@ -408,7 +637,16 @@ nlu:
 
 - intent: fees
   examples: |
-   - where do i pay my fees
+   - fees
+   - How are the course fees
+   - What is the fees
+   - What r the course fees
+   - How much does this cost
+   - What is the total fees?
+   - Tell me more abt the fees
+   - How much is the admission payment
+   - admission payment
+   - where do i pay the fees
    - karunya fees structure
    - fee structure
    - fee details
