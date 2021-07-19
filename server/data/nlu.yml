@@ -556,6 +556,26 @@ nlu:
     - Your name
     - May I know your name 
     - How do i call you
+    - aint this a bot
+    - who are u
+    - wait a min, who are you?
+    - who the heck are you
+    - may i know who im conversing with
+    - who is this
+    - who am i speaking to
+    - who's this
+    - Is this a bot
+    - are you a human
+    - do you have life
+    - are you living
+    - Are you a robot
+    - bot
+    - bot speak
+    - Aint you a robo
+    - are you a robo
+    - am i a bot
+    - is this a robot
+    - this a bot?
     
 - intent: out_of_scope
   examples: |
@@ -570,6 +590,17 @@ nlu:
     - Do we have biriyani
     - who won the match
     - Free food
+    - mad
+    - 10 + 3 x 5
+    - who won cricket
+    - when did ISRO launch the rocketet
+    - what's the news
+    - imma hungry
+    - can you mute my tv
+    - order swiggy for me
+    - whos is the us president
+    - why is trump banned 
+    - where is the olympics 
 
 - intent: college_info
   examples: |
