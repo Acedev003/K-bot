@@ -601,6 +601,9 @@ nlu:
     - whos is the us president
     - why is trump banned 
     - where is the olympics 
+    - sf l;dlfm ads fm;adsk;fl 
+    - a;sdkf ma;sdlkf m;aslkd mfadsfm
+    - asdlkfm asl;dkfm alksdfm lskdfm
 
 - intent: college_info
   examples: |
@@ -631,6 +634,25 @@ nlu:
    - Facts abt college
    - Facts on college
    - Fact on cllg
+   - Can you give me some information on karunya
+   - Info abt karunya
+   - Info about college
+   - Information on college
+   - Tell me more about college
+   - How is Karunya
+   - How is KU
+   - Tell me abt KU
+   - What details can you provide me about college
+   - Provide me with details about college
+   - Provide me details abt cllg
+   - a brief history of Karunya
+   - history of KU
+   - tell me about Karunya
+   - Give me some details about Karunya university
+   - Gimme some input on the university
+   - Gimme input about Karunya
+   - Tell some facts abt Karunya
+   - Tell us some facts about college
 
 - intent: college_location
   examples: |
@@ -665,6 +687,41 @@ nlu:
    - How do i get to Karunya by air
    - Nearest station to the college
    - Nearest airport to KU
+   - How do I travel to karunya
+   - How to reach college
+   - Directions to Karunya
+   - Give me the directions to reach Karunya
+   - How do I get to KU
+   - How do i reach university
+   - Route to college
+   - Route to Karunya 
+   - Route to university
+   - Route to cllg
+   - What's the route to reach college
+   - Directions to reach KU
+   - Guide me on how to reach college
+   - Can you guide me to reach college
+   - How can I get to Karunya
+   - can i reach college
+   - Show me the way to college
+   - show me how I can reach college
+   - route
+   - map to college
+   - How far is college from the city
+   - How long is college from city
+   - How long is Karunya from the city
+   - How long is Karunya from Coimbatore
+   - Where is this college located at
+   - directions please
+   - location
+   - direction
+   - coordinates
+   - route details to college
+   - how to visit college
+   - How can i visit Karunya
+   - visit University
+   - visit KU
+   - visit college
 
 - intent: fees
   examples: |
