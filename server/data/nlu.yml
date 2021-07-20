@@ -726,6 +726,7 @@ nlu:
 - intent: fees
   examples: |
    - fees
+   - fees details
    - How are the course fees
    - What is the fees
    - What r the course fees
@@ -765,6 +766,29 @@ nlu:
    - FeeS OF ug courses at karunya
    - fees of agri courses 
    - How much is the agriculture courses
+   - fee structure
+   - tell me more abt the fee structure
+   - tell me more about the fee structure
+   - can you tell us abt the fees for ug courses
+   - admission fees
+   - semeseter fees
+   - Give me the fee structure
+   - Gimme the fee details
+   - fee details
+   - what r the fees
+   - How costly is Karunya
+   - how costly is the fees
+   - Give me fee data
+   - research fees
+   - tell me about the fees
+   - what are the fees
+   - what's the fee
+   - How costly is this
+   - expense
+   - admission cost
+   - admission payment details
+   - admission fee payment
+   - How to pay admission fees
 
 - intent: scholarship
   examples: |
