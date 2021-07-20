@@ -393,6 +393,7 @@ nlu:
     - this is very expensive
     - this is sooo overpriced
     - im depressed
+    - i will not choose karunya
     - this is not worth the price
     - Fees is not worth it
     - Geez, the fees are so pricy
@@ -413,6 +414,15 @@ nlu:
     - cee you later
     - good night
     - bye
+    - boi
+    - bui bui
+    - boi boi
+    - bubbyeeee
+    - bubye
+    - tata
+    - tata ok
+    - ok tata bye
+    - tata bye bye
     - goodbye
     - have a nice day
     - see you around
@@ -503,6 +513,10 @@ nlu:
     - confirmed
     - yes, choose this
     - yus
+    - haan
+    - haan ok
+    - seri
+    - ok
 
 - intent: deny
   examples: |
@@ -525,6 +539,9 @@ nlu:
     - I disagree with this 
     - dont carry on
     - stop
+    - dont
+    - hatt
+    - na na 
     - nope
     - dont do it
     - dont move foreward
@@ -565,6 +582,10 @@ nlu:
     - who am i speaking to
     - who's this
     - Is this a bot
+    - why should i talk to you
+    - do you breathe
+    - marry me
+    - will you marry me
     - are you a human
     - do you have life
     - are you living
@@ -576,6 +597,7 @@ nlu:
     - am i a bot
     - is this a robot
     - this a bot?
+    - stop your botness
     
 - intent: out_of_scope
   examples: |
@@ -610,6 +632,8 @@ nlu:
    - about college
    - about karunya
    - brief about college
+   - tell me if karunya is good
+   - bout college
    - how is karunya
    - hOW IS CLLG
    - How's college
@@ -906,7 +930,81 @@ nlu:
     - Bachelor of science courses
     - Btech courses available
     - B.tech courses 
-    
+    - i want to know about btech degree
+    - can i do btech here
+    - tell me something about btech
+    - bachelor tech
+    - technology of bachelors degree
+    - i wanna do btech
+    - gimme some details about btech degree
+    - does this college have btech
+    - can i do engineering here
+    - tell me something about engineering
+    - engineering degree
+    - engg
+    - bachelors of enggg
+    - how is btech 
+    - how is ug
+    - ug btech engineering programme details
+    - ok now tell me about ug
+    - ok now btechh details
+
+- intent: bsc
+  examples: |
+   - can i pursue bsc here
+   - is bsc degree available
+   - bachelors of science degree
+   - bsc
+   - bsc graduation
+   - bsc degree
+   - bsc course
+   - courses for bsc students
+   - bsc students
+   - bsc dept
+   - can you tell me something about bsc dept
+   - can you give me info on bsc degree
+   - gimme info on bsc
+   - yo bro tell me abt bsc
+   - okh now tell me about bsc course in college
+   - bruh is bsc there
+   - how is bsc here
+   - 
+   - can you provide details about bsc degree
+
+- intent: pg
+  examples: |
+   - pg
+   - post graduation courses
+   - pg course
+   - can i know about pg courses
+   - is pg course available in karunya
+   - is pg degree possible
+   - gimme info on pg degree
+   - details on post graduation 
+   - information regarding pg courses
+   - tell me something about pg degree
+   - which courses are available under pg section
+   - ok is pg there
+   - okh can i pursue post graduation there
+   - nice so is pg degree there too?
+   - pg there or not?
+   - mtech
+   - mba
+   - information on mtech degree
+   - how is mtech degree of karunya
+   - give me info on mtech degree of karunya
+   - is mtech available
+   - info on mba
+   - info on phd
+   - phd course
+   - tell me something about phd
+   - tell me about mtech degree
+   - is mtech good
+   - tell me something about mba degree
+   - mba course in ku
+
+
+
 - intent: cse
   examples: |
    - cse
@@ -925,6 +1023,25 @@ nlu:
    - software engineer
    - is btech in data science available
    - is artifical intelligence course available in karunya
+   - tell me something about cse
+   - i want to know about computer science engineering
+   - i want to know about artificial intelligence
+   - tell me abt ai course
+   - gimme info on cse ai 
+   - give details on ai ds
+   - data science course
+   - ai ds course
+   - can i specialise in ai
+   - btech with specialisation in cse
+   - how to do cse 
+   - i wanna knw abt cs course
+   - i need info on cse dept
+   - details of cse
+   - details of ai
+   - details of artificial intellgence
+   - cybersecurity degree
+   - computer degree
+   - how to take up cs
 
 - intent: civil
   examples: |
@@ -936,6 +1053,32 @@ nlu:
    - is there a civil engineering dept
    - civil engineering dept
    - i want to take up civil engineering at karunya
+   - give me info on civil
+   - i need info about civil engineering
+   - tell me something about civil engineering 
+   - tell me about civil
+   - info on civil
+   - information about civil department
+   - details on civil
+   - i want to know about btech with civil
+   - give me information on btech with civil
+   - can you show me something about civil engg?
+   - civil engg degree
+   - undergraduate program in civil
+   - ok tell me something about civil engineering in karunya?
+   - ohk i want to know about civil deptt
+   - civil engineering degree undergraduate
+   - gimme details about civil engineering da
+   - hey chatbot do you have info about civil engineering
+   - yo bro tell me abt civil dept
+   - how to get admitted in civil engineering?
+   - what is the status of civil engineering 
+   - give me knowledge about civil engineering in college
+   - shed light upon civil engineering
+   - okay civil?
+   - civilll
+   - civl eng
+
 
 - intent: mech
   examples: |
@@ -946,6 +1089,24 @@ nlu:
    - btech in me
    - is mechanical engineering degree available in karunya
    - can i take mech engg
+   - tell me something about mechanical
+   - i want to know about mechnaical
+   - gimme details on mech branch
+   - how is mechanical branch in karunya?
+   - undergraduate program with mech
+   - mech
+   - how is mech?
+   - ok mech?
+   - ok tell me about mechanical degree
+   - alright tell me something about mech
+   - give me info on mech engineering
+   - gimme info mech degree
+   - ok so tell me about the mechanical engineering 
+   - insights about mechanical engineering
+   - details on mechh
+   - should i study mechanical
+   - how about mechanical degree
+   
 
 - intent: eee
   examples: |
@@ -959,6 +1120,27 @@ nlu:
    - degree in electrical
    - electrical department
    - eee department
+   - what about
+   - and how is eee
+   - how is electrical engineering
+   - is eee nice
+   - is eee ok
+   - should i take eee
+   - is electrical worth taking
+   - why should i study electrical in karunya
+   - is electrical worth studying in karunya
+   - should i study electrical or not
+   - bruh is eee good enough
+   - is eee here
+   - eee or not
+   - eee ok?
+   - electrical is ok?
+   - triple e
+   - ee
+   - ee engineering
+   - electrical engineer
+   - electrical engineering
+   - engineering in eee
 
 - intent: ece
   examples: |
@@ -972,6 +1154,29 @@ nlu:
    - btech in ece
    - is ece available
    - is btech in electronics available
+   - electronics and telecommunications
+   - should i take ece
+   - taking up ece?
+   - how is ece
+   - is the department of electronics good
+   - is the ece degree nice
+   - tell me something about ece degree
+   - give me info on ece degree
+   - electronics 
+   - elec degree
+   - electronics engineer
+   - engineering in ece
+   - engineering with electronics
+   - electronics engg
+   - ece degreee engineering
+   - gimme details about electronics
+   - gimme details on ece dept
+   - ece dept ok?
+   - how is ece faculty in karunya
+   - is ece depatment of karunya good enough
+   - should i study ece in karunya or not
+   - ece study
+  
 
 - intent: robo
   examples: |
@@ -980,6 +1185,26 @@ nlu:
    - btech in robotics
    - robotics engineering
    - is btech in robotics available in karunya
+   - robo degree
+   - degree in robotics
+   - tell me something about btech in robotics
+   - give me info on robotics
+   - info on robo and auto
+   - robo and auto
+   - will i learn to make robots in karunya
+   - karunya robotics depatment
+   - karunya robotics degree
+   - should i study robotics in karunya
+   - is robotics in karunya good enough
+   - should i consider studying robotics in karunya
+   - should i consider studying bout automation in karunya
+   - is automation degree worth 
+   - is robotics degree of karunya good enough
+   - i want to know about robotics degree
+   - help me with robo details
+   - ok so is robotics course available in karunya
+   - how to take up robo btech
+   - can i take up btech in robotics
    
 - intent: aero
   examples: |
@@ -991,6 +1216,13 @@ nlu:
    - btech in aerospace
    - aerospace engineering at kits
    - 4 year aerospace engineering course
+   - tell me about aerospace degree
+   - ok help me with details of aerospace 
+   - how is aerospace dept
+   - btech in aerospace ok?
+   - is there any detail on aerospace engineering
+   - aero engg degree programme
+   - specification of aerospace degreee
   
 - intent: bio
   examples: |
@@ -1000,6 +1232,9 @@ nlu:
    - btech in biomedical
    - biomedical engineering
    - is biomedical engineering available at karunya
+   - tell me something about biomedical
+   - how is biomedical engineering
+   - show details on biomedical
 
 - intent: okaytext
   examples: |
@@ -1073,6 +1308,41 @@ nlu:
    - semester wise fee
    - semester fees
    - payment fee
+   - fee
+   - and fee?
+   - what about the fee
+   - what bout fees
+   - fees detail
+   - give me detail on fee
+   - wb fee
+   - do i have to pay fees
+   - how much will i have to pay
+   - payment
+   - cheque
+   - cash
+   - is this college free
+   - will i have to pay something to study
+   - to study what will i have to pay
+   - btech fees
+   - cse fees
+   - ece fee
+   - mech fees
+   - fees of undergraduate
+   - ug fees details
+   - fees details for post graduation
+   - pg fees
+   - fees of pg students
+   - what to pay
+   - cash or card
+   - credit
+   - how much loan to take
+   - ok what is the fee
+   - is karunya expensive
+   - is karunya costly
+   - is karunya cheap
+   - hostel fees
+   - mess fees
+   - studying fees
 
 - intent: hostel
   examples: |
@@ -1159,5 +1429,5 @@ nlu:
    - How can I get into this uni?
    - What are my chances of getting into this university?
    - getting into karunya
-   - 
+   
 
