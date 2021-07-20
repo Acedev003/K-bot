@@ -803,6 +803,36 @@ nlu:
    - What all scholarships can students apply for
    - scholarship application
    - how do i apply for scholarships
+   - How do i get scholarships
+   - scholarships
+   - scholarship
+   - How am I supposed to get scholarship
+   - Is there any fee waivers for students
+   - Am i eligible for scholarship
+   - Do i have scholarhip
+   - Can i get scholarship
+   - am i worthy of a scholarship
+   - fee waivers
+   - fee offer
+   - scholarship offers
+   - can i get scholarship
+   - reduction in fees
+   - reduction in payments
+   - Is there any reduction in fees for students
+   - Are there any fees cutoff for students
+   - cutoff in fees
+   - fee offers
+   - scholarship
+   - is there any grant for students
+   - grants
+   - grants available
+   - cool offers for students
+   - Scholarships in college
+   - application for scholarship
+   - how to apply for scholarship
+   - scholarship application
+   - how can i apply for scholarship
+   - scholarships
 
 - intent: ask_courses
   examples: |
@@ -830,6 +860,15 @@ nlu:
     - Complete list of courses available
     - Brochure of  programs offered
     - Brochure
+    - courses
+    - courses offered
+    - courses available
+    - What courses are offered
+    - course offereings
+    - What courses do we have at karunya
+    - what all courses does karunya offere
+    - What are the list of courses
+    - programs
 
 - intent: btech
   examples: |
