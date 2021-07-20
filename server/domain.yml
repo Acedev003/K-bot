@@ -24,6 +24,8 @@ intents:
   - civil
   - mech
   - eee
+  - pg
+  - bsc
   - ece
   - robo
   - fees
