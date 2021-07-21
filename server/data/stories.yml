@@ -65,7 +65,6 @@ stories:
   - action: utter_mech
 
 
-
 - story: sad path 1
   steps:
   - intent: greet

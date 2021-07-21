@@ -517,6 +517,9 @@ nlu:
     - haan ok
     - seri
     - ok
+    - Okie
+    - yo
+    - carry forward
 
 - intent: deny
   examples: |
@@ -548,6 +551,44 @@ nlu:
     - Nah
     - no!
     - don't
+    - nay
+    - Nope
+    - not at all
+    - no no no
+    - nooooo
+
+- intent: okaytext
+  examples: |
+   - okay
+   - that sounds good
+   - sounds great
+   - great
+   - good
+   - ok
+   - okie
+   - oks
+   - hmmmmm
+   - kk
+   - okie
+   - ohh, okay
+   - aight
+   - good enough 
+   - k
+   - alright
+   - ohhk
+   - thats great
+   - oh nice
+   - oh great
+   - oh
+   - nice
+   - hmm
+   - fair
+   - good enough
+   - OKKKK
+   - oK 
+   - OK OK
+   - OKAY OKAY
+   - okay!
 
 - intent: bot_challenge
   examples: |
@@ -677,6 +718,24 @@ nlu:
    - Gimme input about Karunya
    - Tell some facts abt Karunya
    - Tell us some facts about college
+   - can you tell me more about college
+   - can you give more information on Karunya
+   - Some details about Karunya
+   - Can you share some details about Karunya
+   - Can you share some details about KU
+   - Can you share some details on Karunya
+   - Pls  share some info about Karunya
+   - Can share some information
+   - College info
+   - Info on Karunya
+   - How is Karunya
+   - Tell me more about Karunya
+   - Please share some insight about college
+   - Abt college
+   - abt Karunya
+   - Tell me something about college
+   - Tell something abt collg
+   - Tell somethin abt Karunya
 
 - intent: college_location
   examples: |
@@ -813,487 +872,7 @@ nlu:
    - admission payment details
    - admission fee payment
    - How to pay admission fees
-
-- intent: scholarship
-  examples: |
-   - Does the university offer scholarships for students
-   - scholarships available at Karunya
-   - scholarship offers
-   - Details of scholarships available for students
-   - Scholarship offers 
-   - what all scholarships can students apply for 
-   - Am i eligible for scholarship
-   - Can you tell me more about scholarship offerings at KU
-   - What all scholarships can students apply for
-   - scholarship application
-   - how do i apply for scholarships
-   - How do i get scholarships
-   - scholarships
-   - scholarship
-   - How am I supposed to get scholarship
-   - Is there any fee waivers for students
-   - Am i eligible for scholarship
-   - Do i have scholarhip
-   - Can i get scholarship
-   - am i worthy of a scholarship
-   - fee waivers
-   - fee offer
-   - scholarship offers
-   - can i get scholarship
-   - reduction in fees
-   - reduction in payments
-   - Is there any reduction in fees for students
-   - Are there any fees cutoff for students
-   - cutoff in fees
-   - fee offers
-   - scholarship
-   - is there any grant for students
-   - grants
-   - grants available
-   - cool offers for students
-   - Scholarships in college
-   - application for scholarship
-   - how to apply for scholarship
-   - scholarship application
-   - how can i apply for scholarship
-   - scholarships
-
-- intent: ask_courses
-  examples: |
-    - courses offered in karunya
-    - programmes offered
-    - programs offered
-    - UG courses
-    - Undergraduate courses
-    - list of courses
-    - field of study in karunya
-    - Which courses are offered at karunya
-    - course
-    - course offered
-    - karunya courses
-    - admission course
-    - course detail
-    - What courses does the university offer
-    - Which courses can I do at karunya
-    - field of study in karunya
-    - list of courses in karunya
-    - list of programs in karunya
-    - Best courses available in karunya
-    - Courses brochure
-    - Course brochure
-    - Complete list of courses available
-    - Brochure of  programs offered
-    - Brochure
-    - courses
-    - courses offered
-    - courses available
-    - What courses are offered
-    - course offereings
-    - What courses do we have at karunya
-    - what all courses does karunya offere
-    - What are the list of courses
-    - programs
-
-- intent: btech
-  examples: |
-    - btech
-    - bachelor of tech
-    - bachelors
-    - btech course
-    - btech programs
-    - Engineering courses in karunya
-    - engineering courses
-    - engineerng courses in karunya
-    - Engineering courses offered by the college
-    - list of engineering courses offered
-    - list of engineering programs in the college
-    - list of engineering programs in university
-    - engineering programs offered
-    - enginerring courses offered
-    - enginerring programs offered by the college
-    - List of btech courses
-    - List of b.tech courses
-    - List of B. tech courses
-    - List of b tech courses
-    - list of ug engineering courses
-    - list of undergraduate engineering courses
-    - list of undergraduate engineering programs
-    - catlog of btech courses
-    - catlog of b. tech courses
-    - how many btech courses do we have 
-    - how many UG courses does the university offer
-    - UG courses offered by the university
-    - UG courses offered
-    - UG programs in the college
-    - undergraduate programs in the college
-    - Bachelor of technology courses
-    - Bachelor of science courses
-    - Btech courses available
-    - B.tech courses 
-    - i want to know about btech degree
-    - can i do btech here
-    - tell me something about btech
-    - bachelor tech
-    - technology of bachelors degree
-    - i wanna do btech
-    - gimme some details about btech degree
-    - does this college have btech
-    - can i do engineering here
-    - tell me something about engineering
-    - engineering degree
-    - engg
-    - bachelors of enggg
-    - how is btech 
-    - how is ug
-    - ug btech engineering programme details
-    - ok now tell me about ug
-    - ok now btechh details
-
-- intent: bsc
-  examples: |
-   - can i pursue bsc here
-   - is bsc degree available
-   - bachelors of science degree
-   - bsc
-   - bsc graduation
-   - bsc degree
-   - bsc course
-   - courses for bsc students
-   - bsc students
-   - bsc dept
-   - can you tell me something about bsc dept
-   - can you give me info on bsc degree
-   - gimme info on bsc
-   - yo bro tell me abt bsc
-   - okh now tell me about bsc course in college
-   - bruh is bsc there
-   - how is bsc here
-   - 
-   - can you provide details about bsc degree
-
-- intent: pg
-  examples: |
-   - pg
-   - post graduation courses
-   - pg course
-   - can i know about pg courses
-   - is pg course available in karunya
-   - is pg degree possible
-   - gimme info on pg degree
-   - details on post graduation 
-   - information regarding pg courses
-   - tell me something about pg degree
-   - which courses are available under pg section
-   - ok is pg there
-   - okh can i pursue post graduation there
-   - nice so is pg degree there too?
-   - pg there or not?
-   - mtech
-   - mba
-   - information on mtech degree
-   - how is mtech degree of karunya
-   - give me info on mtech degree of karunya
-   - is mtech available
-   - info on mba
-   - info on phd
-   - phd course
-   - tell me something about phd
-   - tell me about mtech degree
-   - is mtech good
-   - tell me something about mba degree
-   - mba course in ku
-
-
-
-- intent: cse
-  examples: |
-   - cse
-   - is cse there in karunya
-   - computer engineering
-   - computer science engineering
-   - cse btech
-   - how is cse in karunya
-   - is cse in karunya good
-   - ce 
-   - artificial intelligence
-   - btech ai
-   - ai ds
-   - data science
-   - can i become a computer science engineer
-   - software engineer
-   - is btech in data science available
-   - is artifical intelligence course available in karunya
-   - tell me something about cse
-   - i want to know about computer science engineering
-   - i want to know about artificial intelligence
-   - tell me abt ai course
-   - gimme info on cse ai 
-   - give details on ai ds
-   - data science course
-   - ai ds course
-   - can i specialise in ai
-   - btech with specialisation in cse
-   - how to do cse 
-   - i wanna knw abt cs course
-   - i need info on cse dept
-   - details of cse
-   - details of ai
-   - details of artificial intellgence
-   - cybersecurity degree
-   - computer degree
-   - how to take up cs
-
-- intent: civil
-  examples: |
-   - civil engineering
-   - btech in civil
-   - civil engineer
-   - how is civil engineering in karunya
-   - is civil engineering course available at karunya
-   - is there a civil engineering dept
-   - civil engineering dept
-   - i want to take up civil engineering at karunya
-   - give me info on civil
-   - i need info about civil engineering
-   - tell me something about civil engineering 
-   - tell me about civil
-   - info on civil
-   - information about civil department
-   - details on civil
-   - i want to know about btech with civil
-   - give me information on btech with civil
-   - can you show me something about civil engg?
-   - civil engg degree
-   - undergraduate program in civil
-   - ok tell me something about civil engineering in karunya?
-   - ohk i want to know about civil deptt
-   - civil engineering degree undergraduate
-   - gimme details about civil engineering da
-   - hey chatbot do you have info about civil engineering
-   - yo bro tell me abt civil dept
-   - how to get admitted in civil engineering?
-   - what is the status of civil engineering 
-   - give me knowledge about civil engineering in college
-   - shed light upon civil engineering
-   - okay civil?
-   - civilll
-   - civl eng
-
-
-- intent: mech
-  examples: |
-   - mechnical engineering
-   - i want to know about mech 
-   - btech in mech
-   - btech in mechanical engineering
-   - btech in me
-   - is mechanical engineering degree available in karunya
-   - can i take mech engg
-   - tell me something about mechanical
-   - i want to know about mechnaical
-   - gimme details on mech branch
-   - how is mechanical branch in karunya?
-   - undergraduate program with mech
-   - mech
-   - how is mech?
-   - ok mech?
-   - ok tell me about mechanical degree
-   - alright tell me something about mech
-   - give me info on mech engineering
-   - gimme info mech degree
-   - ok so tell me about the mechanical engineering 
-   - insights about mechanical engineering
-   - details on mechh
-   - should i study mechanical
-   - how about mechanical degree
-   
-
-- intent: eee
-  examples: |
-   - eee
-   - electrical
-   - electrical engineering
-   - electrical and electronics engineering
-   - btech in eee
-   - btech in electrical
-   - ug in eee
-   - degree in electrical
-   - electrical department
-   - eee department
-   - what about
-   - and how is eee
-   - how is electrical engineering
-   - is eee nice
-   - is eee ok
-   - should i take eee
-   - is electrical worth taking
-   - why should i study electrical in karunya
-   - is electrical worth studying in karunya
-   - should i study electrical or not
-   - bruh is eee good enough
-   - is eee here
-   - eee or not
-   - eee ok?
-   - electrical is ok?
-   - triple e
-   - ee
-   - ee engineering
-   - electrical engineer
-   - electrical engineering
-   - engineering in eee
-
-- intent: ece
-  examples: |
-   - ece
-   - ece dept
-   - electronics
-   - electronics engineering
-   - electronics and communications
-   - electronics and communication engineering
-   - btech in ece
-   - btech in ece
-   - is ece available
-   - is btech in electronics available
-   - electronics and telecommunications
-   - should i take ece
-   - taking up ece?
-   - how is ece
-   - is the department of electronics good
-   - is the ece degree nice
-   - tell me something about ece degree
-   - give me info on ece degree
-   - electronics 
-   - elec degree
-   - electronics engineer
-   - engineering in ece
-   - engineering with electronics
-   - electronics engg
-   - ece degreee engineering
-   - gimme details about electronics
-   - gimme details on ece dept
-   - ece dept ok?
-   - how is ece faculty in karunya
-   - is ece depatment of karunya good enough
-   - should i study ece in karunya or not
-   - ece study
-  
-
-- intent: robo
-  examples: |
-   - robotics
-   - automation
-   - btech in robotics
-   - robotics engineering
-   - is btech in robotics available in karunya
-   - robo degree
-   - degree in robotics
-   - tell me something about btech in robotics
-   - give me info on robotics
-   - info on robo and auto
-   - robo and auto
-   - will i learn to make robots in karunya
-   - karunya robotics depatment
-   - karunya robotics degree
-   - should i study robotics in karunya
-   - is robotics in karunya good enough
-   - should i consider studying robotics in karunya
-   - should i consider studying bout automation in karunya
-   - is automation degree worth 
-   - is robotics degree of karunya good enough
-   - i want to know about robotics degree
-   - help me with robo details
-   - ok so is robotics course available in karunya
-   - how to take up robo btech
-   - can i take up btech in robotics
-   
-- intent: aero
-  examples: |
-   - aerospace engineering
-   - btech in aero
-   - aero btech
-   - how is the aerospace engineering dept
-   - aerospace btech
-   - btech in aerospace
-   - aerospace engineering at kits
-   - 4 year aerospace engineering course
-   - tell me about aerospace degree
-   - ok help me with details of aerospace 
-   - how is aerospace dept
-   - btech in aerospace ok?
-   - is there any detail on aerospace engineering
-   - aero engg degree programme
-   - specification of aerospace degreee
-  
-- intent: bio
-  examples: |
-   - biomedical
-   - btech in biomedical
-   - biomedcial
-   - btech in biomedical
-   - biomedical engineering
-   - is biomedical engineering available at karunya
-   - tell me something about biomedical
-   - how is biomedical engineering
-   - show details on biomedical
-
-- intent: okaytext
-  examples: |
-   - okay
-   - that sounds good
-   - sounds great
-   - great
-   - good
-   - ok
-   - okie
-   - oks
-   - k
-   - alright
-   - ohhk
-   - thats great
-   - oh nice
-   - oh great
-   - amazing
-   - cool
-   - oh
-   - nice
-   - hmm
-   - fair
-   - good enough
-
-- intent: whyKU
-  examples: |
-   - Why should I choose KU
-   - Should I go to Karunya
-   - Is karunya a good college
-   - should i take admission in karunya
-   - is karunya okay 
-   - is karunya good for engineering
-   - is the college good enough
-   - why this college
-   - what makes this college stand out
-   - is it worth getting admitted in karunya
-   - should i do btech in karunya
-   - it it right to get admitted here
-   - why should i choose karunya over other colleges
-   - is karunya better than the other colleges
-   - why to choose karunya
-
-- synonym: college
-  examples: |
-   - karunya
-   - Karunya Institute
-   - Karunya Institute of Technology and Sciences
-   - KITS
-   - KU
-   - Karunya University
-   - university
-   - institute
-   - karunya college
-   - KIT
-  
-- intent: fee
-  examples: |
-   - What is the fee structure
+      - What is the fee structure
    - fee details
    - annual fee details
    - semester fee
@@ -1344,6 +923,736 @@ nlu:
    - mess fees
    - studying fees
 
+- intent: scholarship
+  examples: |
+   - Does the university offer scholarships for students
+   - scholarships available at Karunya
+   - scholarship offers
+   - Details of scholarships available for students
+   - Scholarship offers 
+   - what all scholarships can students apply for 
+   - Am i eligible for scholarship
+   - Can you tell me more about scholarship offerings at KU
+   - What all scholarships can students apply for
+   - scholarship application
+   - how do i apply for scholarships
+   - How do i get scholarships
+   - scholarships
+   - scholarship
+   - How am I supposed to get scholarship
+   - Is there any fee waivers for students
+   - Am i eligible for scholarship
+   - Do i have scholarhip
+   - Can i get scholarship
+   - am i worthy of a scholarship
+   - fee waivers
+   - fee offer
+   - scholarship offers
+   - can i get scholarship
+   - reduction in fees
+   - reduction in payments
+   - Is there any reduction in fees for students
+   - Are there any fees cutoff for students
+   - cutoff in fees
+   - fee offers
+   - scholarship
+   - is there any grant for students
+   - grants
+   - grants available
+   - cool offers for students
+   - Scholarships in college
+   - application for scholarship
+   - how to apply for scholarship
+   - scholarship application
+   - how can i apply for scholarship
+
+- intent: ask_courses
+  examples: |
+    - courses offered in karunya
+    - programmes offered
+    - programs offered
+    - Undergraduate courses
+    - list of courses
+    - field of study in karunya
+    - Which courses are offered at karunya
+    - course
+    - course offered
+    - karunya courses
+    - admission course
+    - course detail
+    - What courses does the university offer
+    - Which courses can I do at karunya
+    - field of study in karunya
+    - list of courses in karunya
+    - list of programs in karunya
+    - Best courses available in karunya
+    - Courses brochure
+    - Course brochure
+    - Complete list of courses available
+    - Brochure of  programs offered
+    - Brochure
+    - courses
+    - courses offered
+    - courses available
+    - What courses are offered
+    - course offereings
+    - What courses do we have at karunya
+    - what all courses does karunya offere
+    - What are the list of courses
+    - programs
+    - programs
+    - programs available
+    - courses available
+    - course details
+    - course info
+    - Tell me something about the courses offered
+    - Can you tell me about the courses offered at college
+    - Tell about the courses offered
+    - Pls gimme an overview of the programs at Karunya
+    - Please give me an overview of the programs offered at KU
+    - Please give me an overview of the courses offered at karunya
+    - Wut course is offered
+    - What r the programs offered 
+    - Please do share the prgrams offered 
+    - Please do share the course offered
+    - Courses at Karunya
+    - Wut all programs does the university offer
+    - Wut all prgrms does KU offer
+    - What all courses does college offer
+    - What all courses does Karunya offer
+    - What all programs does KU give
+    - What all courses does KU give
+    - What all courses does KU give
+    - program
+    - course
+    - prgrms offered
+
+- intent: btech
+  examples: |
+    - btech
+    - btech in KU
+    - bTECH AT Karunya
+    - btech at karunya
+    - B. Tech at karunya
+    - does karunya university offer b tech courses
+    - Is there Btech in Karunya
+    - bachelor of tech
+    - bachelors
+    - btech course
+    - btech programs
+    - Engineering courses in karunya
+    - engineering courses
+    - engineerng courses in karunya
+    - Engineering courses offered by the college
+    - list of engineering courses offered
+    - list of engineering programs in the college
+    - list of engineering programs in university
+    - engineering programs offered
+    - enginerring courses offered
+    - enginerring programs offered by the college
+    - List of btech courses
+    - List of b.tech courses
+    - List of B. tech courses
+    - List of b tech courses
+    - catlog of btech courses
+    - catlog of b. tech courses
+    - how many btech courses do we have 
+    - undergraduate programs in the college
+    - Bachelor of technology courses
+    - Bachelor of science courses
+    - Btech courses available
+    - B.tech courses 
+    - i want to know about btech degree
+    - can i do btech here
+    - tell me something about btech
+    - bachelor tech
+    - technology of bachelors degree
+    - i wanna do btech
+    - gimme some details about btech degree
+    - does this college have btech
+    - Does the college offer btech courses
+    - can i do engineering here
+    - tell me something about engineering
+    - engineering degree
+    - engg
+    - bachelors of enggg
+    - how is btech
+    - ok now btechh details
+    - bachelor of tech
+    - tech courses
+    - bee tech
+    - tech
+    - Bachelor of technology courses
+    - Btech courses
+    - B-tech course
+    - Btech programs
+    - Provide me with some details about some B tech course at KU
+    - Provide me with some details about some B tech programs at Karunya 
+    - Provide me with some info about some B tech programs at college 
+    - bTECH prgrms
+    - BTech degree
+    - b tech programs
+    - B Tech courses
+    - B.tech courses at karunya
+    - Btech degree programs offered
+    - Tell me more B Tech degree courses at Karunya
+    - Provide more info on Btech degree courses
+    - Tell more about the BTech courses at karunya
+    - Can you give me some information abt the btech course at College
+    - Share info abt btech courses
+    - Can ya tell me more abt the bTech course at Karunya
+    - Pls tell me we have btech courses at Karunya 
+    - Pls tell me we have btech courses at KU
+    - What all btech courses does Karunya offere
+    - engineering courses offered by KU
+    - Can you gimme an overview of the B.tech Courses offered by karunya
+    - Pls tell me more on the Btech programs offerd   at Karunya
+    - What all bachelor of technology courses do we have at Karunya
+    - Bachlor of tech courses at Karunya
+    - What all tech courses do you offer at Karunya
+    - Please tell me more about the B.Tech courses offered at university
+    - Pls tell me more abt the B tech programs our college offers
+
+- intent: bsc
+  examples: |
+   - can i pursue bsc here
+   - is bsc degree available
+   - bachelors of science degree
+   - bsc
+   - bsc graduation
+   - bsc degree
+   - bsc course
+   - courses for bsc students
+   - bsc students
+   - Is there Bsc courses at Karunya
+   - Is there degree courses at Ku
+   - Is there degree programs at KARUNYA 
+   - bsc dept
+   - can you tell me something about bsc dept
+   - can you give me info on bsc degree
+   - gimme info on bsc
+   - yo bro tell me abt bsc
+   - okh now tell me about bsc course in college
+   - bruh is bsc there
+   - how is bsc here
+   - can you provide details about bsc degree
+   - Bachelor of science of courses offered
+   - Can ya tell me if we have B.SC programs at Karunya
+   - Bachelor of Science
+   - bsc degree courses
+   - Bsc degree
+   - B.Sc
+   - B Sc
+   - bsc
+   - bsc courses offred by Karunya
+   - Provide me some details about Bsc courses a KU
+   - Science courses at Karunya
+   - Science course at KU
+   - Science and arts courses at Karunya
+   - arts programs in Karunya
+   - art courses at Karunya
+   - can ya share details about science programs at college
+   - Bsc courses 
+   - B.Sc programs 
+   - Bachelor of Science at KU
+   - Bachelor of Scienve at Karunya university
+   - Arts programs in Karunya
+   - Science in Karunya
+   - Criminology courses
+   - Courses on media and communication in Karunya
+   - Media and comms
+   - Media
+   - Media and communication courses
+   - Criminology courses offered by Karunya
+   - degree courses courses offered at KU
+   - degree programs at kU
+   - degree prgrms offered by KU
+
+- intent: ug
+  examples: |
+   - UG courses
+   - UG degree
+   - undergrduate degree programs
+   - list of ug engineering courses
+   - list of undergraduate engineering courses
+   - list of undergraduate engineering programs
+   - how is ug
+   - ug btech engineering programme details
+   - ok now tell me about ug
+   - how many UG courses does the university offer
+   - UG courses offered by the university
+   - UG courses offered
+   - UG programs in the college
+   - undergraduate programs in KU
+   - undergraduate
+   - under graduate
+   - UG courses 
+   - What all UG programs do we have at Karunya
+   - Pls share details on undergraduate degree programs
+   - Data on UG degree prgrams 
+   - UG degree programs
+   - What all UG programs are there
+   - UG at Karunya
+   - Undergratuate at Karunya
+   - undergraduate courses available
+   - ug courses available
+   - list of undergraduate courses offered
+   - can you tell me more about the undergraduate courses offered 
+   - Pls list out the undergraduate prgrams in KU
+   - lIST uG PROGRAMS IN kkarunya
+   - list ug programs in Karunya
+   - list ug courses in KU
+   - list undergraduate courses in KU
+   - List UG courses 
+   - Good UG courses at KU
+   - undergraduate courses offered
+   - Can you gimme an insight into the undergraduate program in karunya
+   - ug prgrms in KU
+   - is there under graduate programs at Karunya 
+   - Tell me more about UG AT Karunya
+
+- intent: pg
+  examples: |
+   - pg
+   - post graduation courses
+   - pg course
+   - can i know about pg courses
+   - is pg course available in karunya
+   - is pg degree possible
+   - gimme info on pg degree
+   - details on post graduation 
+   - information regarding pg courses
+   - tell me something about pg degree
+   - which courses are available under pg section
+   - ok is pg there
+   - okh can i pursue post graduation there
+   - nice so is pg degree there too?
+   - pg there or not?
+   - mtech
+   - mba
+   - information on mtech degree
+   - how is mtech degree of karunya
+   - give me info on mtech degree of karunya
+   - is mtech available
+   - info on mba
+   - info on phd
+   - phd course
+   - pg degree programs
+   - tell me something about phd
+   - tell me about mtech degree
+   - is mtech good
+   - tell me something about mba degree
+   - mba course in ku
+   - Post graduate courses at Karunya
+   - Is there a post graduate course in Karunya
+   - Is there PG courses at KU
+   - PG courses offered by Karunya
+   - Post graduate courses at KU
+   - MTech courses
+   - PG
+   - Post graduate
+   - pOST Graduate
+   - Can you gimme more info about the PG at karunya
+   - Tell me more abt the pg course at KU
+   - Tell more about Post graduate courses
+   - Mtech courses offered
+   - M. tECH
+   - M. Tech
+   - mtech
+   - mtech
+   - mtech
+   - M.Tech
+   - mba
+   - mBA
+   - MBA programs 
+   - MBA courses 
+   - MBA courses at Karunya
+   - MBA course at Karunya
+   - MBA courses at KU
+   - mba courses
+   - Does karunya university offere Msc courses
+   - Post graduate Mtech courses
+   - PG MBA prgrams
+
+- intent: cse
+  examples: |
+   - cse
+   - is cse there in karunya
+   - computer engineering
+   - computer science engineering
+   - cse btech
+   - cse degree programs
+   - how is cse in karunya
+   - is cse in karunya good
+   - ce 
+   - artificial intelligence
+   - btech ai
+   - ai ds
+   - data science
+   - can i become a computer science engineer
+   - software engineer
+   - is btech in data science available
+   - is artifical intelligence course available in karunya
+   - tell me something about cse
+   - i want to know about computer science engineering
+   - i want to know about artificial intelligence
+   - tell me abt ai course
+   - gimme info on cse ai 
+   - give details on ai ds
+   - data science course
+   - ai ds course
+   - can i specialise in ai
+   - btech with specialisation in cse
+   - how to do cse 
+   - i wanna knw abt cs course
+   - i need info on cse dept
+   - details of cse
+   - details of ai
+   - details of artificial intellgence
+   - cybersecurity degree
+   - computer degree
+   - how to take up cs
+   - department of CSE at karunya
+   - Computer science at Karunya
+   - AI groups in Karunya
+   - AI in karunya
+   - Share more info about the AI courses at karunya
+   - Tell me more about CSE dept at karunya
+   - Share more details about the CSE dept at KU
+   - Provide me with details about the Computer science dept at Karunya
+   - Provide me with details about the Computer science department at KU
+   - gIMME MORE data on the CS departments in KU
+   - Btech cse
+   - Btech in computer science
+   - B Tech in computer
+   - bTECH PROGRAMS IN AI
+   - B.tech programs in artificial intelligence
+   - Bachelor of tech programs in CSE at KU
+   - Bachelor of technology programs in computer science at Karunya
+   - More information on the CSE courses offered by Karunya
+
+- intent: civil
+  examples: |
+   - civil engineering
+   - btech in civil
+   - civil engineer
+   - how is civil engineering in karunya
+   - is civil engineering course available at karunya
+   - is there a civil engineering dept
+   - civil engineering dept
+   - i want to take up civil engineering at karunya
+   - give me info on civil
+   - i need info about civil engineering
+   - tell me something about civil engineering 
+   - tell me about civil
+   - info on civil
+   - information about civil department
+   - details on civil
+   - i want to know about btech with civil
+   - give me information on btech with civil
+   - can you show me something about civil engg?
+   - civil engg degree
+   - undergraduate program in civil
+   - ok tell me something about civil engineering in karunya?
+   - ohk i want to know about civil deptt
+   - civil engineering degree undergraduate
+   - gimme details about civil engineering da
+   - hey chatbot do you have info about civil engineering
+   - yo bro tell me abt civil dept
+   - how to get admitted in civil engineering?
+   - degree in civil engineering
+   - what is the status of civil engineering 
+   - give me knowledge about civil engineering in college
+   - shed light upon civil engineering
+   - okay civil?
+   - civilll
+   - civl eng
+   - civil
+   - civil engineering
+   - Does karunya university have civil engineering courses
+   - Civil courses at Karunya
+   - Civil engg programs at KU
+   - Civil engineering programs at Karunya
+   - Civil engg courses at KU
+   - Cvil eng programs
+   - Okay, cool tell me more abt the civil engineering courses at Karunya
+   - Okay tell me abt civil engineering courses
+   - Do we have civil engineering here?
+
+- intent: mech
+  examples: |
+   - mechnical engineering
+   - i want to know about mech 
+   - btech in mech
+   - btech in mechanical engineering
+   - btech in me
+   - is mechanical engineering degree available in karunya
+   - can i take mech engg
+   - tell me something about mechanical
+   - i want to know about mechnaical
+   - gimme details on mech branch
+   - how is mechanical branch in karunya?
+   - undergraduate program with mech
+   - mech
+   - how is mech?
+   - ok mech?
+   - ok tell me about mechanical degree
+   - alright tell me something about mech
+   - give me info on mech engineering
+   - gimme info mech degree
+   - ok so tell me about the mechanical engineering 
+   - insights about mechanical engineering
+   - details on mechh
+   - should i study mechanical
+   - how about mechanical degree
+   - degree in mechanical engineering
+   - mechanical engg
+   - mech
+   - mechanical engg
+   - Pls share more info about mechanical engineering courses offered by Karunya
+   - mechanical engineering dept
+   - Can i apply for mechanical engineering at Karunya
+   - mechanical engineering programs 
+   - mechanical engineering courses
+   - Tell me more abt the mech engg courses at karunya 
+   - Tell me more abt the mech engg programs  at offered
+
+- intent: eee
+  examples: |
+   - EEE
+   - eee
+   - electrical
+   - electrical engineering
+   - electrical and electronics engineering
+   - btech in eee
+   - btech in electrical
+   - ug in eee
+   - degree in electrical
+   - electrical department
+   - eee department
+   - what about
+   - and how is eee
+   - how is electrical engineering
+   - is eee nice
+   - is eee ok
+   - should i take eee
+   - is electrical worth taking
+   - why should i study electrical in karunya
+   - is electrical worth studying in karunya
+   - should i study electrical or not
+   - bruh is eee good enough
+   - is eee here
+   - eee or not
+   - eee ok?
+   - electrical is ok?
+   - triple e
+   - ee
+   - ee engineering
+   - electrical engineer
+   - electrical engineering
+   - engineering in eee
+   - Electrical engineering programs at Karunya
+   - Do we have an electical engineering program at Karunya
+   - Tell me more abt electrical dept
+   - Do we have electrical engg courses
+   - EEE programs
+   - Electrical engineering programs 
+
+- intent: ece
+  examples: |
+   - ece
+   - ece dept
+   - electronics
+   - electronics engineering
+   - electronics and communications
+   - electronics and communication engineering
+   - btech in ece
+   - btech in ece
+   - is ece available
+   - is btech in electronics available
+   - electronics and telecommunications
+   - should i take ece
+   - taking up ece?
+   - how is ece
+   - is the department of electronics good
+   - is the ece degree nice
+   - tell me something about ece degree
+   - give me info on ece degree
+   - electronics 
+   - elec degree
+   - electronics engineer
+   - engineering in ece
+   - engineering with electronics
+   - electronics engg
+   - ece degreee engineering
+   - gimme details about electronics
+   - gimme details on ece dept
+   - ece dept ok?
+   - how is ece faculty in karunya
+   - is ece depatment of karunya good enough
+   - should i study ece in karunya or not
+   - ece study
+   - Do we have ECE at karunya
+   - More information abt the Electrical and communications course at KU
+   - More info on the ece dept
+   - Tell me more Electronics & Comms dept
+   - What all courses does the electronics and communications department offer
+   - What all programs does the electronics and comms dept offer
+   - Programs the electronics and communications department offer
+   - Ece
+   - ECE
+
+- intent: robo
+  examples: |
+   - robotics
+   - automation
+   - btech in robotics
+   - robotics engineering
+   - is btech in robotics available in karunya
+   - robo degree
+   - degree in robotics
+   - tell me something about btech in robotics
+   - give me info on robotics
+   - info on robo and auto
+   - robo and auto
+   - will i learn to make robots in karunya
+   - karunya robotics depatment
+   - karunya robotics degree
+   - should i study robotics in karunya
+   - is robotics in karunya good enough
+   - should i consider studying robotics in karunya
+   - should i consider studying bout automation in karunya
+   - is automation degree worth 
+   - is robotics degree of karunya good enough
+   - i want to know about robotics degree
+   - help me with robo details
+   - ok so is robotics course available in karunya
+   - how to take up robo btech
+   - can i take up btech in robotics
+   - does ku offer courses in robotics
+   - robotics courses in karunya
+   - program in robotics
+   - robotics degree at karunya
+   - robotics at KU
+   - robotics degree
+   - Does karunya have robotics 
+   - robotics
+   - degree program in robotics
+   - degree courses in robotics and automation
+   - automation
+   - Do we have robotics at our campus
+   - Does Karunya offer robot programs
+   - Does Karunya offer robot courses
+   - Tell me more about the robotics courses offered by KU
+   - Tell me more on robotics courses offered by karunya
+   - Tell me some on robotics programs offered by karunya
+   - Share some info on robotics courses
+   - Can you tell me if we have robotics courses at Karunya
+   - Okay then what about robotics
+      
+- intent: aero
+  examples: |
+   - aerospace engineering
+   - btech in aero
+   - aero btech
+   - how is the aerospace engineering dept
+   - aerospace btech
+   - btech in aerospace
+   - aerospace engineering at kits
+   - 4 year aerospace engineering course
+   - tell me about aerospace degree
+   - ok help me with details of aerospace 
+   - how is aerospace dept
+   - btech in aerospace ok?
+   - is there any detail on aerospace engineering
+   - aero engg degree programme
+   - specification of aerospace degreee
+   - Do we have aerospace at Karunya
+   - Aero courses at KU
+   - aERONAUTICS PROGRAMS in karunya
+   - Aerospace programs in karunya
+   - Aerospace courses offered by the university
+   - Aero programs offered by Karunya
+   - Aero courses offerd by the college
+   - bTECH IN AEROSPACE
+   - B.tech in aerospace
+   - Space courses in Karunya
+   - Space programs in KU
+   - Do we aerospace engineering at Karunya
+   - Aerospace enginnering at KU
+   - Can you tell me more about the aerospace courses at College
+   - Share more about the aerospace courses at karunya
+   - Aerospace programs in Karunya
+   - Aerospace programs offered
+   - Aerospace courses
+   - Aeros courses 
+   - Aero prgrms 
+   - aERO SPACE PROGRAMS 
+   - Aero space programs 
+   - Degree in aerospace
+   - Does the university offer courses in aerospace
+   - Air programs in KU
+  
+- intent: bio
+  examples: |
+   - biomedical
+   - btech in biomedical
+   - biomedcial
+   - btech in biomedical
+   - biomedical engineering
+   - is biomedical engineering available at karunya
+   - tell me something about biomedical
+   - how is biomedical engineering
+   - show details on biomedical
+   - Engineering in bio
+   - Biomedical courses
+   - BIO COURSES
+   - Bio courses
+   - Btech in biotech
+   - bio
+   - biotech
+   - bio
+   - Bio Tech
+   - Bio technology courses
+   - BTech in biology
+   - Btech in Biotechnology courses
+   - B. tECH IN BIO TECHNology
+   - bio technology
+   - bio medical
+   - medical courses
+   - medical
+   - biology
+
+- intent: whyKU
+  examples: |
+   - Why should I choose KU
+   - Should I go to Karunya
+   - Is karunya a good college
+   - should i take admission in karunya
+   - is karunya okay 
+   - is karunya good for engineering
+   - is the college good enough
+   - why this college
+   - what makes this college stand out
+   - is it worth getting admitted in karunya
+   - should i do btech in karunya
+   - it it right to get admitted here
+   - why should i choose karunya over other colleges
+   - is karunya better than the other colleges
+   - why to choose karunya
+   - why choose Karunya
+   - why go to karunya
+   - what makes karunya better
+   - what is good in karunya
+   - why this college
+   - why should I select your university
+   - why Karunya
+   - why should I go here
+   - Why select this college 
+   - why is the why in selecting this university
+   - Why select Ku
+   - Why go to KU
+
 - intent: hostel
   examples: |
    - is hostel available in karunya
@@ -1369,6 +1678,33 @@ nlu:
    - food in hostel
    - how is the food in the mess
    - mess information
+   - mess information
+   - More info on the hostel
+   - hostel fees
+   - Hostel details 
+   - Hostel
+   - MESS
+   - Hostel information
+   - Hostel informations
+   - Is the hostel in good condition
+   - Do we have good hostels 
+   - How much does the mess cost
+   - How r the hostels
+   - Tell something about the hostels
+   - What abt hostel
+   - Okay then, what abt the hostels
+   - Hosstel
+   - What abt the fees
+   - Do we have good hostels
+   - Accomodation
+   - Accomodation facilities for students
+   - Hostel facilities for students
+   - Gents hostel
+   - Ladies hostel
+   - Do the hostls give good food
+   - Does the mess have good food
+   - Staying at karunya
+   - Staying at college
   
 - intent: placements
   examples: |
@@ -1395,6 +1731,19 @@ nlu:
    - will this college get me a job
    - will i get a job after graduating from here
    - recruitment position of college
+   - What all placement opportunities do we have at Karunya
+   - Placement details
+   - wILL i GET A GOOD PLACEMENT FROM KU
+   - Will I get a gud placement from karunya
+   - Is karunya good for placements
+   - Does karunya offer good placemnts
+   - What companies come to karunya for placemnt drive
+   - Placement 
+   - Job opportunites at karunya
+   - Will I get a good job at Karunya
+   - Job 
+   - What firms hire at KU
+   - Will I get hired from KU
 
 - intent: infa
   examples: |
@@ -1429,5 +1778,18 @@ nlu:
    - How can I get into this uni?
    - What are my chances of getting into this university?
    - getting into karunya
-   
 
+   
+- synonym: college
+  examples: |
+   - karunya
+   - Karunya Institute
+   - Karunya Institute of Technology and Sciences
+   - KITS
+   - KU
+   - Karunya University
+   - university
+   - institute
+   - karunya college
+   - KIT
+  
