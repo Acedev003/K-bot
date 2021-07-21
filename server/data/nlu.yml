@@ -1739,6 +1739,20 @@ nlu:
    - Does karunya offer good placemnts
    - What companies come to karunya for placemnt drive
    - Placement 
+   - Will i get a Job
+   - Job offers 
+   - Plaement offers
+   - WILL university gimme a good placement offers
+   - pLACEMENTS AT KU
+   - Placements at KU
+   - Job opportunities for students
+   - Internship opportunities
+   - Internship offers for students
+   - Internship
+   - Interns
+   - Company offers by karunya
+   - Company offers
+   - Company opportunities
    - Job opportunites at karunya
    - Will I get a good job at Karunya
    - Job 
@@ -1759,7 +1773,38 @@ nlu:
    - college campus details
    - campus tour
    - how is the infastructure of the college
-  
+   - Campus infastructure 
+   - Facilities in campus
+   - Does the university have good infastructure
+   - What all facilities does univresity have
+   - Infastructure
+   - Facilities
+   - Campus facilities
+   - Campus infastructure
+   - Is the campus infastructure good
+   - Do we have good facilities at college
+   - Facilites in your university
+   - Available facilities in this college
+   - Facilities in this university
+   - Facilities in this cllg
+   - Campus infastructure
+   - campus highlights
+   - bUILDINGS
+   - Cllg infastructure
+   - Collg facilites
+   - college facilities
+   - Building facilites
+   - DGX
+   - Does the university have good equipment
+   - College equipment
+   - Is the lab equipment broken
+   - Do we have good lab equipement
+   - Are all equipments functional
+   - are the lab equipments working
+   - are the instruments working
+   - do we have good instruments
+   - Instrument quality
+   
 - intent: howTo
   examples: |
    - how to get admission in karunya
