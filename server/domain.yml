@@ -25,6 +25,7 @@ intents:
   - mech
   - eee
   - pg
+  - ug
   - bsc
   - ece
   - robo
@@ -32,285 +33,356 @@ intents:
   - aero
   - bio
 
-
-
 responses:
   utter_greet:
-   - text: "Hello 👋\nHow may I help you?"
-   - text: "Hello there! 👋 How may I assist you today?"
-   - text: "Hi 😀. I'm K-Bot. Feel free to ask me any questions related to Karunya!"
-   - text: "Hi there! 😃 How may I help you?"
-   - text: "Hi 🙂 How can I help you out?"
-   - text: "Hi there 👋 If you need any assistance, I can help you out."
-
-  utter_greet_neutral:
-   - text: "Hey! Any help needed?"
-   - text: "Any extra hands needed?"
-   - text: "Hi 🙂 Feel free to ask me any questions related to Karunya!"
-   - text: "Hola! How may I help you?"
-   - text: "Hi! How can I help you out?"
-   - text: "Hello 👋 If you need any assistance, I can help you out."    
-
+    - text: "Hello 👋\nHow may I help you?"
+    - text: "Hello there! 👋 How may I assist you today?"
+    - text: "Hi 😀. I'm K-Bot. Feel free to ask me any questions related to Karunya!"
+    - text: "Hi there! 😃 How may I help you?"
+    - text: "Hi 🙂 How can I help you out?"
+    - text: "Hi there 👋 If you need any assistance, I can help you out."
+    - text: "Hey! Any help needed?"
+    - text: "Any extra hands needed?"
+    - text: "Hi 🙂 Feel free to ask me any questions related to Karunya!"
+    - text: "Hola! How may I help you?"
+    - text: "Hi! How can I help you out?"
+    - text: "Hello 👋 If you need any assistance, I can help you out."    
   utter_out_of_scope:
-   - text: "Sorry 😶 I can't handle that request yet."
-   - text: "Oops! That's beyond my capabilities at the moment 😔"
-   - text: "I'm extremely sorry, but I can't this request yet."
-   - text: "Extremely sorry! I cannot handle this request yet. Is there anything else you woukd like me to assist you with?"
-   - text: "Uh-oh. I'm not sure if I would be able to execute your request 😥 \n Would you like me to assist you with anything else?"
-   - text: "Uh-oh. 😔 I'm not confident if I would be able to execute your request. \n Would you like me to help you out with anything else?"
-
-  utter_please_rephrase:
-   - text: "I'm sorry, I didn't quite understand that. Could you please rephrase?"
-   - text: "Sorry, I didn't quite get you. Could you please rephrase that for me ?"
-   - text: "I was not able to understand that. Can you please rephrase that?"
-
-  utter_iamabot:
-   - text: "I am a bot, built by students at Karunya to assist you with all your queries."
-   - text: "I am a bot, built to assist you with all your queries on this university"
-   - text: "I'm a simple bot to assist you with your queries on Karunya"
-  
+    - text: "Sorry 😶 I can't handle that request yet."
+    - text: "Oops! That's beyond my capabilities at the moment 😔"
+    - text: "I'm extremely sorry, 😔 but I can't this request yet."
+    - text: "Extremely sorry! 😥 I cannot handle this request yet. Is there anything else you woukd like me to assist you with?"
+    - text: "Uh-oh. I'm not sure if I would be able to execute your request 😥 \n Would you like me to assist you with anything else?"
+    - text: "Uh-oh. 😔 I'm not confident if I would be able to execute your request. \n Would you like me to help you out with anything else?"
   utter_collegeinfo:
-   - text: |
-      Karunya Institute of Technology and Sciences, was founded with the noble vision to raise professionals and leaders of high academic calibre and unblemished character, nurtured with a strong motivation and commitment to serve humanity.
-      Established in 1986 as an Engineering College, it was granted autonomous status in 1999 and declared Deemed-to-be University by the UGC in the year 2004.
-      The college is also present in a very scenic location, with a very pleasant climate all year round.
-      For more info visit: https://karunya.edu/about-us
+    - text: |
+       Karunya Institute of Technology and Sciences, was founded with the noble vision to raise professionals and leaders of high academic calibre and unblemished character, nurtured with a strong motivation and commitment to serve humanity.
+       Established in 1986 as an Engineering College, it was granted autonomous status in 1999 and declared Deemed-to-be University by the UGC in the year 2004.
+       The college is also present in a very scenic location, with a very pleasant climate all year round.
+       For more info about the milestones and achievements of this wonderful college, visit: https://karunya.edu/about-us
+    - text: |
+       Karunya Institute of Technology and Sciences, was founded with the noble vision to raise leaders and professionals of high academic calibre, nurtured with strong motivation and commitment to serve humanity.
+       The college was established in 1986, granted autonomous status in 1999 and declared Deemed-to-be University by the UGC in the 2004.
+       The college is also present in a very scenic location, with a very pleasant climate all year round.
+       For more about this wonderful college, it's milestones and achievements, visit: https://karunya.edu/about-us
 
   utter_location:
-   - text: |
-      The college is situated approximately 30 kms away from Coimbatore city and connected to the city via the Siruvani main road. 
-      The nearest airport is Coimbatore International Airport(CJB) while the nearest railway station is Coimatore Junction(CBE)
-      This link might help you to get the exact location of our college: https://g.page/karunyauniv?share
-   
-   - text: |
-      The college is situated around 30 kms away from Coimbatore city near to the Siruvani Hills. 
-      The nearest railway station in Coimbatore Junction(CBE).
-      If you are coming in by air, the nearest airport is Coimbatore International Airport(CJB).
-      This link might help you to navigate to our college easily: https://g.page/karunyauniv?share
-
+    - text: |
+       The college is situated approximately 30 kms away from Coimbatore city and connected to the city via the Siruvani main road. 
+       The nearest airport is Coimbatore International Airport(CJB) while the nearest railway station is Coimatore Junction(CBE)
+       This link might help you to get the exact location of our college: https://g.page/karunyauniv?share 🗺📌
+    - text: |
+       The college is situated around 30 kms away from Coimbatore city near to the Siruvani Hills. 
+       The nearest railway station in Coimbatore Junction(CBE).
+       If you are coming in by air, the nearest airport is Coimbatore International Airport(CJB).
+       This link might help you to navigate to our college easily: https://g.page/karunyauniv?share 🗺📌
+    - text: |
+       The college is near the Siruvani Hiil situated around 30 kms away from Coimbatore city.
+       For those coming in by train, the nearest railway station is Coimbatore Junction (CBE).
+       If you are coming in by air, the nearest airport is Coimbatore International Airport(CJB).
+       This link might help you to navigate to our college easily: https://g.page/karunyauniv?share 🗺📌
   utter_fees:
-   - text: "To know more about the fees structures and courses:\n\n\nFor UG students : https://admissions.karunya.edu/ug \n\n PG students: https://admissions.karunya.edu/pg \n\n Research students: https://admissions.karunya.edu/programmes/research "
-   - text: "For info about fees structure and course details :\n\n\nFor UG students : https://admissions.karunya.edu/ug \n\n PG students: https://admissions.karunya.edu/pg \n\n Research students: https://admissions.karunya.edu/programmes/research "
-   - text: "You can get details about  fees and courses in the links given below :- \n\n\nFor UG students : https://admissions.karunya.edu/ug \n\n PG students: https://admissions.karunya.edu/pg \n\n Research students: https://admissions.karunya.edu/programmes/research "
+    - text: "To know more about the fees structures and courses:\n\n\nFor UG students : https://admissions.karunya.edu/ug \n\n PG students: https://admissions.karunya.edu/pg \n\n Research students: https://admissions.karunya.edu/programmes/research "
+    - text: "For info about fees structure and course details :\n\n\nFor UG students : https://admissions.karunya.edu/ug \n\n PG students: https://admissions.karunya.edu/pg \n\n Research students: https://admissions.karunya.edu/programmes/research "
+    - text: "You can get details about  fees and courses in the links given below :- \n\n\nFor UG students : https://admissions.karunya.edu/ug \n\n PG students: https://admissions.karunya.edu/pg \n\n Research students: https://admissions.karunya.edu/programmes/research "
+    - text: "To know details about  fees and courses in the links given below :- \n\n\nFor UG students : https://admissions.karunya.edu/ug \n\nPG students: https://admissions.karunya.edu/pg \n\nResearch students: https://admissions.karunya.edu/programmes/research "
 
   utter_scholarship:
-   - text: |
-      The university grants exciting scholarship opportunities for all deserving students.
-      For more info visit the below links:-
-      https://www.karunya.edu/student/scholarship
-      https://admissions.karunya.edu/scholarships
-
-   - text: |
-      Karunya offers amazing scholarship opportunities for all deserving students 🥳🥳🥳
-      For more details on scholarships visit the links below:-
-      https://www.karunya.edu/student/scholarship
-      https://admissions.karunya.edu/scholarships
-
-   - text: |
-      All deserving students are offered great scholarships at karunya. 😀
-      For more details on scholarships visit the links below:-
-      https://www.karunya.edu/student/scholarship
-      https://admissions.karunya.edu/scholarships
+    - text: |
+       The university grants exciting scholarship opportunities for all deserving students. 😎
+       For more info visit the below links:-
+       https://www.karunya.edu/student/scholarship
+       https://admissions.karunya.edu/scholarships
+    - text: |
+       Karunya offers amazing scholarship opportunities for all deserving students 🥳🥳🥳
+       For more details on scholarships visit the links below:-
+       https://www.karunya.edu/student/scholarship
+       https://admissions.karunya.edu/scholarships
+    - text: |
+       All deserving students are offered great scholarships at karunya. 😀
+       For more details on scholarships visit the links below:-
+       https://www.karunya.edu/student/scholarship
+       https://admissions.karunya.edu/scholarships
 
   utter_did_that_help:
-   - text: "Did that help you?"
+    - text: "Did that help you?"
+ 
+  utter_iamabot:
+    - text: "Im K-bot! 😀 Built by students at Karunya to assist you in your needs."
+    - text: "I am a bot. 🤠 Built to assist your queries about this college."
+    - text: "Bot who? Yes I am a bot! 😉 Do you have any queries, that I may be able to help you with?"
+
+  utter_please_rephrase:
+    - text: "Extrmely sorry. 😟 I guess I was unable to understand you correctly.\nCould u pls rephrase?"
+    - text: "Oops. 😓 I guess I was unable to understand you.\nCould u pls rephrase?"
+    - text: "Uh oh! I'm sorry but I was not able to understand you.🙁 Can you please rephrase?"
 
   utter_console:
-  - text: Oops! Is there anyway I can help you out. If still doubtful, you can get more info from the university website or by contacting the helpdesk.\nWebpage - https://karunya.edu\nHelpDesk - 1800 425 4300 (TollFree) or (91) 422 2363636
-  - text: "I am sorry. Anything else I can help you with? \nIf still in doubt, you can grab more from our university website or by contacting the helpdesk.\nWebpage - https://karunya.edu\nHelpDesk - 1800 425 4300 (TollFree) or (91) 422 2363636"
+    - text: Oops! 😥 Is there anyway I can help you out. If still doubtful, you can get more info from the university website or by contacting the helpdesk.\nWebpage - https://karunya.edu\nHelpDesk - 1800 425 4300 (TollFree) or (91) 422 2363636
+    - text: "I am sorry. 😞 Anything else I can help you with? \nIf still in doubt, you can grab more from our university website or by contacting the helpdesk.\nWebpage - https://karunya.edu\nHelpDesk - 1800 425 4300 (TollFree) or (91) 422 2363636"
 
   utter_okay:
-  - text: "Yeah! Anything else I can help you with?"
+    - text: "Yeah! Anything else I can help you with?"
 
   utter_happy:
-  - text: "Great, carry on!"
-  - text: "Good to hear that!"
-  - text: "Thank you 😃. Anything other queries?"
+    - text: "Great, 😃 carry on!"
+    - text: "Good to hear that! 😊"
+    - text: "Thank you 😃. Anything other queries?"
 
   utter_goodbye:
-  - text: "Okay, bye!"
-  - text: "Bye, See you later 😊"
-  - text: "Goodbye 🙂"
-  - text: "Bye, Have a nice day."
-  - text: "Bye, Have a good day."
-  - text: "Bye, See you soon. 😀"
-  - text: "Goodbye! It was great to chat with you. "
-  
+    - text: "Okay, bye! 🙂"
+    - text: "Bye, See you later 😊"
+    - text: "Goodbye 🙂"
+    - text: "Bye, Have a nice day."
+    - text: "Bye, Have a good day."
+    - text: "Bye, See you soon. 😀"
+    - text: "Goodbye! It was great to chat with you. ☺"
   
   utter_whyKU:
-  - text: |
-        Why should you choose Karunya?
-        -Academic Excellence
-        -Best IT Facilities
-        -Innovation and Entrepreneurship
-        -Residential Life
-        -Sports Facilities
+    - text: |
+       Why should you choose Karunya?
+       The university is one the best private institutions in India. Sprawling campus area, pleasant climate throughout the year. This is the best place you would like to spend your college days.
+       The university is also known for its 
+       - Academic Excellence
+       - Highly experienced and dedicated faculty
+       - Best IT Facilities
+       - Innovation and Entrepreneurship
+       - Residential Life
+       - Sports Facilities
+       This univeristy has it all. 🤩
+       You can the visit https://karunya.edu to know more.
+
+    - text: |
+       I have to say, Karunya is one the best private institutions in India. Sprawling green campus, pleasant climate throughout the year, this is the best place you would like to spend your college days.
+       Do you know, that this is also among the top 100 instituions in India, as per the NIRF ranking by the government. What an achievement. 🎉
+       
+       The university is also known for its 
+       - Academic Excellence
+       - Highly experienced and dedicated faculty
+       - Best IT Facilities
+       - Innovation and Entrepreneurship
+       - Residential Life
+       - Sports Facilities
+
+       You can the visit https://karunya.edu to know more.
+       This univeristy has it all. 😎
       
   utter_placements:
-  - text: |
-     Karunya University has a team of dedicated, committed and competent placement cell that is dedicated to providing students with proper professional training and placement opportunities among some of the most reputed companies and prestigious organizations. The placements for the academic year 2020 are currently being conducted with over 707 students already placed at 143 companies. 184 students among these have also received multiple job offers from recruiting companies.
-
-     The highest CTC package offered during 2019 placements was worth INR 19.55 LPA and the average CTC package offered was INR 5.5 LPA. 
-  
+    - text: |
+       Karunya University has a team of dedicated, committed and competent placement cell that is dedicated to providing students with proper professional training and placement opportunities among some of the most reputed companies and prestigious organizations. The placements for the academic year 2020 are currently being conducted with over 707 students already placed at 143 companies. 184 students among these have also received multiple job offers from recruiting companies.
+       The highest CTC package offered during 2019 placements was worth INR 19.55 LPA and the average CTC package offered was INR 5.5 LPA. 
+       You can visit https://karunya.edu/placements to know more details.
+    - text: |
+       The university has a creditable record of placements with many top tier companies such as IBM, Accenture, Amazon, Infosys and many others conducting placement drives each year. With honest effort, you are guarenteed to get placed.
+       You can visit https://karunya.edu/placements to know more details.
   utter_infa:
-  - text: |
-     Here's the Campus Overview
-     - 700 Acres of Land
-     - Nationally Acclaimed Research Laboratories
-     - Well-equipped Computer Laboratories
-     -24/7 Wifi Internet Connectivity
-     -Centres of Excellence in collaboration with Siemens, Cisco, Novell, IBM, Salzer Electronics and Lancet Commission
-     -Smart Classrooms with latest teaching Aids
-  
+    - text: |
+       The campus has one the best and highly maintained infastructure in India. The university has highly maintained labs, with high grade equipments and the latest software/hardare.
+       To know more details, you visit our webpage at https://karunya.edu/infrastructure. 
+       You can also visit the department pages to know more specific details.
+       
+       Some key take aways are:-
+       - Central Library
+       - Computer Technology Center
+       - Well equipped labs
+       - High grade software and hardware
+       - 700 Acres of Land
+       - Nationally Acclaimed Research Laboratories
+       - Well-equipped Computer Laboratories
+       - 24/7 Wifi Internet Connectivity
+       - Centres of Excellence in collaboration with Siemens, Cisco, Novell, IBM, Salzer Electronics and Lancet Commission
+       - Smart Classrooms with latest teaching Aids
   utter_howTo:
-  - text: |
-     Course	   Selection Criteria
-     UG	         KEE
-     PG	         KEE
-     MBA	     CAT/ MAT/ KMAT
+    - text: |
+       The selection criteria for various streams are mentioned below.
+           
+       Course	     Criteria
+       UG	         KEE
+       PG	         KEE
+       MBA	       CAT/ MAT/ KMAT
      
-     BTech - 10+2 with Physics, Chemistry, and Mathematics as compulsory subjects from any recognized board with minimum 60% marks in aggregate 
+       *BTech - 10+2 with Physics, Chemistry, and Mathematics as compulsory subjects from any recognized board with minimum 60% marks in aggregate 
+
+       If you would like to be a part of Karunya,
+       1. Goto -> https://admissions.karunya.edu
+       2. Choose a course from the wide variety of courses available
+       3. Fill in the EOI at https://eduserve.karunya.edu/online/admissions/eoi.aspx
+       4. You will soon be contacted via email/phone regarding further procedures. 🙂
   
   utter_courses:
-  - text: |
-     Our college has 3 schools namely
-     - School of Engineering & Technology,
-     - School of Science Arts Media & Management,
-     - School of Agriculture & Biosciences 
-     that offer a variety of exciting courses.
-     
-     Karunya offers BTech, Mtech and PhD degrees.
-     Which course would you like to know more about? "
+    - text: |
+       Our college has 3 schools namely
+       - School of Engineering & Technology,
+       - School of Science Arts Media & Management,
+       - School of Agriculture & Biosciences 
+       that offer you a variety of exciting courses.
+
+       Karunya offers BTech, Mtech and PhD degrees.
+       Which course would you like to know more about? 
+       Visit https://admissions.karunya.edu to view the amazing courses this university offers for you
+
+    - text: |
+       Our college has 3 schools namely the 
+       - School of Engineering & Technology,
+       - School of Science Arts Media & Management,
+       - School of Agriculture & Biosciences 
+       that offer you a variety of exciting courses.
+
+       Karunya offers BTech, Mtech and PhD degrees.
+       Which program would you like to know more about? 
+       Visit https://admissions.karunya.edu to view the amazing courses this university offers for you
 
   utter_btech:
-  - text: |
-      Karunya offers various courses in B.Tech :
-      - B.Tech Aerospace Engineering
-      - B.Tech Artificial Intelligence and Data Science
-      - B.Tech Biomedical Engineering
-      - B.Tech Biotechnology
-      - B.Tech Civil Engineering
-      - B.Tech Civil Engineering (Specialization in Smart Cities)
-      - B.Tech Computer Engineering
-      - B.Tech Computer Science and Engineering
-      - B.Tech Computer Science and Engineering(Artificial Intelligence)
-      - B.Tech Computer Science and Engineering (Specialization in Artificial Intelligence)
-      - B.Tech Computer Science and Engineering (Specialization in Data Analytics)
-      - B.Tech Computer Science and Engineering (Specialization in Artificial Intelligence & Machine Learning)
-      - B.Tech Electronics and Computer Engineering
-      - B.Tech Electronics and Communications Engineering
-      - B.Tech Electronics and Communications Engineering (Specialization in IOT)
-      - B.Tech Food Processing and Engineering
-      - B.Tech Mechanical Engineering
-      - B.Tech Robotics and Automation
+    - text: |
+       Karunya offers various courses in B.Tech :
+       - B.Tech Aerospace Engineering
+       - B.Tech Artificial Intelligence and Data Science
+       - B.Tech Biomedical Engineering
+       - B.Tech Biotechnology
+       - B.Tech Civil Engineering
+       - B.Tech Civil Engineering (Specialization in Smart Cities)
+       - B.Tech Computer Engineering
+       - B.Tech Computer Science and Engineering
+       - B.Tech Computer Science and Engineering(Artificial Intelligence)
+       - B.Tech Computer Science and Engineering (Specialization in Artificial Intelligence)
+       - B.Tech Computer Science and Engineering (Specialization in Data Analytics)
+       - B.Tech Computer Science and Engineering (Specialization in Artificial Intelligence & Machine Learning)
+       - B.Tech Electronics and Computer Engineering
+       - B.Tech Electronics and Communications Engineering
+       - B.Tech Electronics and Communications Engineering (Specialization in IOT)
+       - B.Tech Food Processing and Engineering
+       - B.Tech Mechanical Engineering
+       - B.Tech Robotics and Automation
+
+       Visit https://admissions.karunya.edu to know more
 
   utter_cse:
-  - text: |
-     Computer Science and Engineering was established in the year 1994. 
-     The primary goal of CSE is to provide best IT infrastructure,
-     world class learning & research environment, adopt industry practices through industry collaborations
-     and inculcate moral and ethical values. The department is accredited by NBA. 
+    - text: |
+       Computer Science and Engineering was established in the year 1994. 
+       The primary goal of CSE is to provide best IT infrastructure,
+       world class learning & research environment, adopt industry practices through industry collaborations
+       and inculcate moral and ethical values. The department is accredited by NBA. 
      
-     Undergraduate Programmes available are: 
-     - Computer Science and Engineering
-     - Computer Engineering
-     - Artificial Intelligence and Data Science
+       Undergraduate Programmes available are: 
+       - Computer Science and Engineering
+       - Computer Engineering
+       - Artificial Intelligence and Data Science
      
-     Postgraduate Programmes available are:
-     - Computer Science and Engineering
-     - Cyber Security
+       Postgraduate Programmes available are:
+       - Computer Science and Engineering
+       - Cyber Security
+
+       Visit https://admissions.karunya.edu to know more
 
   utter_civil:
-  - text: |
-      The Department of Civil Engineering has been in existence since the inception of
-      Karunya Institute of Technology and Sciences in 1986 and has grown into a full-fledged department
-      with specializations in:
-      - Structural Engineering
-      - Geotechnical Engineering,
-      - Environmental and
-      - Water Resources and Management. 
+    - text: |
+       The Department of Civil Engineering has been in existence since the inception of
+       Karunya Institute of Technology and Sciences in 1986 and has grown into a full-fledged department
+       with specializations in:
+       - Structural Engineering
+       - Geotechnical Engineering,
+       - Environmental and
+       - Water Resources and Management. 
       
-      The department is accredited by NBA.
+       The department is also accredited by NBA.
+
+       Visit https://admissions.karunya.edu to know more
 
   utter_mech:
-  - text: |
-     The Department of Mechanical Engineering of Karunya Institute of Technology and Sciences
-     is known for excellence in academics and research in the field of design & manufacturing engineering,
-     material sciences & thermal management, renewable energy, metallurgy and mechatronics engineering.
+    - text: |
+       The Department of Mechanical Engineering of Karunya Institute of Technology and Sciences
+       is known for excellence in academics and research in the field of design & manufacturing engineering,
+       material sciences & thermal management, renewable energy, metallurgy and mechatronics engineering.
      
-     Karunya offers: 
-     - B.Tech in Mechanical Engineering
-     - M.Tech in Advanced Engineering Technology
+       Karunya offers: 
+       - B.Tech in Mechanical Engineering
+       - M.Tech in Advanced Engineering Technology
+
+       Visit https://admissions.karunya.edu to know more
 
   utter_eee:
-  - text: |
-     The Department of Electrical and Electronics Engineering was established in 1994.
-     It is well equipped with highly commendable facilities and is effectively guided
-     by a set of devoted and diligent staff members. The Department has also signed MoA 
-     with industries like SIEMENS Centre of Excellence for “Automation and Drives”.
-     Students are offered with innovative projects, in plant trainings and internships through this collaboration.
+    - text: |
+       The Department of Electrical and Electronics Engineering was established in 1994.
+       It is well equipped with highly commendable facilities and is effectively guided
+       by a set of devoted and diligent staff members. The Department has also signed MoA 
+       with industries like SIEMENS Centre of Excellence for “Automation and Drives”.
+       Students are offered with innovative projects, in plant trainings and internships through this collaboration.
      
-     Karunya offers:
-     - B.Tech in Electrical and Electronics Engineering
-     - B.Tech in Electrical and Electronics Engineering
+       Karunya offers:
+       - B.Tech in Electrical and Electronics Engineering
+       - B.Tech in Electrical and Electronics Engineering
+
+       Visit https://admissions.karunya.edu to know more
 
   utter_ece:
-  - text: |
-     ECE has a strength of 1061 students guided by a team of devoted and diligent staff members.
-      ECE has well established research labs in the fields of VLSI, RF Communication,
-      IoT and Signal processing. Currently, funded projects of worth Rs. 75,78,000/- from DST and DRDO 
-      has been carried out in the programme. ECE has signed MoU with reputed industries like Jasmin Infotech, KPIT, Salzer, Siemens and EinNel Technologies.
+    - text: |
+       ECE has a strength of 1061 students guided by a team of devoted and diligent staff members.
+       ECE has well established research labs in the fields of VLSI, RF Communication,
+       IoT and Signal processing. Currently, funded projects of worth Rs. 75,78,000/- from DST and DRDO 
+       has been carried out in the programme. ECE has signed MoU with reputed industries like Jasmin Infotech, KPIT, Salzer, Siemens and EinNel Technologies.
 
-     Karunya offers:
-      - B.Tech Electronics and Computer Engineering
-      - B.Tech Electronics and Communications Engineering
-      - B.Tech Electronics and Communications Engineering (Specialization in IOT)
+       Karunya offers:
+       - B.Tech Electronics and Computer Engineering
+       - B.Tech Electronics and Communications Engineering
+       - B.Tech Electronics and Communications Engineering (Specialization in IOT)
+
+       Visit https://admissions.karunya.edu to know more
     
   utter_robo:
-  - text: |
-     Started in 2018 at KITS, B.Tech - Robotics and Automation department houses several
-     state-of-the-art labs which aim to inculcate the urge for research and innovation.
-     It equips the students in par with the industry standards and fosters an innovative attitude
-     that leads them to become entrepreneurs. The department also has robust tie-ups with 
-     various industries and is currently collaborating with many more in order to provide
-     a platform for the students to be exposed to latest trends in the field of robotics and automation.
+    - text: |
+       Started in 2018 at KITS, B.Tech - Robotics and Automation department houses several
+       state-of-the-art labs which aim to inculcate the urge for research and innovation.
+       It equips the students in par with the industry standards and fosters an innovative attitude
+       that leads them to become entrepreneurs. The department also has robust tie-ups with 
+       various industries and is currently collaborating with many more in order to provide
+       a platform for the students to be exposed to latest trends in the field of robotics and automation.
      
-     Karunya offers:
-     - B.Tech Robotics and Automation
-     - M.Tech Robotics and Automation
+       Karunya offers:
+       - B.Tech Robotics and Automation
+       - M.Tech Robotics and Automation
+
+       Visit https://admissions.karunya.edu to know more
 
   utter_aero:
-  - text: |
-     Our budding engineers acquire skills in core domains like aerodynamics, 
-     stress engineering, materials and structures, aircraft design, Propulsion, 
-     Space dynamics, Artificial Intelligence & Machine Learning, smart manufacturing
-     that enables them to compete physical laws and cruise through time and space by
-     being creative and innovative, thus opening-up the limitless opportunities in an endless Space.
+    - text: |
+       Our budding engineers acquire skills in core domains like aerodynamics, 
+       stress engineering, materials and structures, aircraft design, Propulsion, 
+       Space dynamics, Artificial Intelligence & Machine Learning, smart manufacturing
+       that enables them to compete physical laws and cruise through time and space by
+       being creative and innovative, thus opening-up the limitless opportunities in an endless Space.
      
-     Karunya offers:
-     - B.Tech in Aerospace Engineering
-     
+       Karunya offers
+       - B.Tech in Aerospace Engineering
 
+       Visit https://admissions.karunya.edu to know more
+     
   utter_bio:
-  - text: |
-      The program gives prime importance to creative and independent thinking and
-      facilitates problem solving attitude via various real-time exposure and laboratory sessions. 
-      The huge breadth in the field of biomedical engineering allows students to choose from 
-      a wide range of research and higher studies options and also is a discipline that
-      assures placements in hospital, medical equipment manufacturing and servicing companies,
-      medical coding concerns, signal and image processing sectors in IT concern.
+    - text: |
+       The program gives prime importance to creative and independent thinking and
+       facilitates problem solving attitude via various real-time exposure and laboratory sessions. 
+       The huge breadth in the field of biomedical engineering allows students to choose from 
+       a wide range of research and higher studies options and also is a discipline that
+       assures placements in hospital, medical equipment manufacturing and servicing companies,
+       medical coding concerns, signal and image processing sectors in IT concern.
       
-      Karunya offers:
-      - B.Tech Biomedical Engineering
-      - M.Tech Biomedical Instrumentation Engineering
+       Karunya offers:
+       - B.Tech Biomedical Engineering
+       - M.Tech Biomedical Instrumentation Engineering
+
+       Visit https://admissions.karunya.edu to know more
 
   utter_pg:
-  - text: For more info on the PG courses we offer, visit https://admissions.karunya.edu/pg
+    - text: For more info on the PG courses we offer, visit https://admissions.karunya.edu/pg
+
+  utter_ug:
+    - text: For more info on the UG courses we offer, visit https://admissions.karunya.edu/ug
 
   utter_bsc:
-  - text: For more info on the PG courses we offer, visit https://admissions.karunya.edu/ug
+    - text: For more info on the various programs we offer, visit https://admissions.karunya.edu
 
+  utter_hostel:
+    - text: Karunya has one the best hostels in any college. To know more visit ____
 
 session_config:
-  session_expiration_time: 60
+  session_expiration_time: 60  # value in minutes
   carry_over_slots_to_new_session: true

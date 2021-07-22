@@ -2,12 +2,17 @@ version: "2.0"
 
 rules:
 
-- rule: Say goodbye anytime the user says goodbye
+- rule: Greet
+  steps:
+  - intent: greet
+  - action: utter_greet
+
+- rule: Goodbye
   steps:
   - intent: goodbye
   - action: utter_goodbye
 
-- rule: Say 'I am a bot' anytime the user challenges
+- rule: Bot Challenge
   steps:
   - intent: bot_challenge
   - action: utter_iamabot
@@ -17,20 +22,26 @@ rules:
   - intent: nlu_fallback
   - action: utter_please_rephrase
 
-- rule: deny
+- rule: out-of-scope
   steps:
-  - intent: deny
-  - action: utter_goodbye
+  - intent: out_of_scope
+  - action: utter_out_of_scope
 
 - rule: okay
   steps:
   - intent: okaytext
   - action: utter_okay
 
-- rule: out-of-scope
+- rule: happy
   steps:
-  - intent: out_of_scope
-  - action: utter_out_of_scope
+  - intent: mood_great
+  - action: utter_happy
+
+- rule: unhappy
+  steps:
+  - intent: mood_unhappy
+  - action: utter_console
+
 
 - rule: college_enquiry
   steps:
@@ -51,6 +62,11 @@ rules:
   steps:
   - intent: scholarship
   - action: utter_scholarship
+
+- rule: course_enquiry
+  steps:
+  - intent: ask_courses
+  - action: utter_courses
 
 - rule : btech enquiry
   steps:
@@ -102,8 +118,37 @@ rules:
   - intent: pg
   - action: utter_pg
 
+- rule : ug enquiry
+  steps:
+  - intent: ug
+  - action: utter_ug
+
 - rule : bsc enquiry
   steps:
   - intent: bsc
   - action: utter_bsc
 
+- rule : infastructure
+  steps:
+  - intent: infa
+  - action: utter_infa
+
+- rule : hostel_enquiry
+  steps:
+  - intent: hostel
+  - action: utter_hostel
+
+- rule : placements
+  steps:
+  - intent: placements
+  - action: utter_placements
+
+- rule : admission enquiry
+  steps:
+  - intent: howTo
+  - action: utter_howTo
+
+- rule : why Karunya
+  steps:
+  - intent: whyKU
+  - action: utter_whyKU 

@@ -516,9 +516,7 @@ nlu:
     - haan
     - haan ok
     - seri
-    - ok
     - Okie
-    - yo
     - carry forward
 
 - intent: deny
@@ -560,10 +558,7 @@ nlu:
 - intent: okaytext
   examples: |
    - okay
-   - that sounds good
    - sounds great
-   - great
-   - good
    - ok
    - okie
    - oks
@@ -580,7 +575,6 @@ nlu:
    - oh nice
    - oh great
    - oh
-   - nice
    - hmm
    - fair
    - good enough
@@ -653,7 +647,6 @@ nlu:
     - Do we have biriyani
     - who won the match
     - Free food
-    - mad
     - 10 + 3 x 5
     - who won cricket
     - when did ISRO launch the rocketet
@@ -872,7 +865,7 @@ nlu:
    - admission payment details
    - admission fee payment
    - How to pay admission fees
-      - What is the fee structure
+   - What is the fee structure
    - fee details
    - annual fee details
    - semester fee
@@ -918,8 +911,7 @@ nlu:
    - ok what is the fee
    - is karunya expensive
    - is karunya costly
-   - is karunya cheap
-   - hostel fees
+   - is karunya cheap fees
    - mess fees
    - studying fees
 
@@ -1549,7 +1541,7 @@ nlu:
    - Share some info on robotics courses
    - Can you tell me if we have robotics courses at Karunya
    - Okay then what about robotics
-      
+   
 - intent: aero
   examples: |
    - aerospace engineering
@@ -1823,8 +1815,9 @@ nlu:
    - How can I get into this uni?
    - What are my chances of getting into this university?
    - getting into karunya
+   - How can I get into college
+   - How can I get to Karunya
 
-   
 - synonym: college
   examples: |
    - karunya
