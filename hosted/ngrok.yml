@@ -1,0 +1,7 @@
+tunnels:
+  general:
+    addr: 5005
+    proto: http
+  students:
+    addr: 5006
+    proto: http
