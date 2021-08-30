@@ -1,5 +1,5 @@
 authtoken: 1xPRthNQsRxBcnXqosBQR7wtQMt_5H9F3Uz2qafhytTDCost9
 tunnels:
   seraph:
-    addr: 8080
+    addr: 5000
     proto: http
