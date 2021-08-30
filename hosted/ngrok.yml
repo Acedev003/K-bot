@@ -6,3 +6,6 @@ tunnels:
   students:
     addr: 5006
     proto: http
+  seraph_auth:
+    addr: 8080
+    proto: http
