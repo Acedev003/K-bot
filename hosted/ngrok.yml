@@ -1,8 +1,0 @@
-authtoken: 1xOEv5nAxOH6ceHONI39tazR1m3_4BG7fhuJqGCLqxAXuiSyU
-tunnels:
-  general:
-    addr: 5005
-    proto: http
-  students:
-    addr: 5006
-    proto: http
